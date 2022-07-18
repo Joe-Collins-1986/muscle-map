@@ -33,14 +33,16 @@ body {
 
 .navbar-links li a {
     text-decoration: none;
-    color: #004AAD;
-    padding: 35px 2rem;
+    color: #FA7C07;
+    text-transform: uppercase;
+    padding: 35px 1.4rem;
     display: block;
     font-size: 1.5rem;
 }
 
 .navbar-links li:hover {
-    background-color: #FA7C07;
+    background-color: #004AAD;
+    border-radius: 10%;
 }
 
 .navbar-links li a:hover {
@@ -89,7 +91,7 @@ body {
     .navbar-links ul {
         width: 100%;
         flex-direction: column;
-        background-color: #004AAD;
+        background-color: #49494980;
         margin: 0;
     }
 
@@ -152,6 +154,8 @@ body {
     }
 }
 
+/* Home text overlaying hero img */
+
 #home-text {
     font-size: 130%;
     font-family: Arial, Helvetica, sans-serif;
@@ -174,4 +178,35 @@ body {
 
 .training-text {
     color: #FA7C07;
+}
+
+/* call to action */
+
+.call-to-action {
+    font-size: 180%;
+    font-family: Arial, Helvetica, sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    width: 300px;
+    height: 60px;
+    border-radius: 10px;
+    border: solid 3px #fa7c075d;
+
+    padding: 10px 5px;
+
+    background-color: #FA7C07;
+
+    top: 420px;
+    left: 50px;
+    position: absolute;
+}
+
+.call-to-action a {
+    text-decoration: none;
+    color: white;
+    font-weight: 900;
 }
