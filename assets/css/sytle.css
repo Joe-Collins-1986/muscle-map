@@ -124,6 +124,10 @@ body {
 
 }
 
+#home-text, #home-text h2 {
+    color: #fff;
+}
+
 #hero-img {
     height: 100%;
     width: 100%;
@@ -146,4 +150,28 @@ body {
     to {
         transform: scale(1.1);
     }
+}
+
+#home-text {
+    font-size: 130%;
+    font-family: Arial, Helvetica, sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+
+    width: 300px;
+    height: 200px;
+    border-radius: 5%;
+
+    padding-top: 10px;
+    padding-left: 15px;
+
+    background-color: rgba(0, 74, 173, .8);
+
+    top: 200px;
+    left: 50px;
+    position: absolute;
+}
+
+.training-text {
+    color: #FA7C07;
 }
