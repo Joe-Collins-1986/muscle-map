@@ -1,3 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Poppins&family=Roboto+Slab:wght@500&display=swap');
+
+/* 
+font-family: 'Open Sans', sans-serif;
+font-family: 'Poppins', sans-serif;
+font-family: 'Roboto Slab', serif; 
+*/
+
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap');
+
+/* 
+font-family: 'Dancing Script', cursive;
+*/
+
 * {
     box-sizing: border-box;
 }
@@ -5,6 +19,7 @@
 body {
     margin: 0;
     padding: 0;
+    font-family: 'Times New Roman', Times, serif;
 }
 
 /* header and navbar */
@@ -93,21 +108,25 @@ body {
     .navbar-links ul {
         width: 100%;
         flex-direction: column;
-        background-color: #49494980;
+        background-color: #F5F5F5;
         margin: 0;
     }
 
     .navbar-links li {
         text-align: center;
+        border-top: 1px solid #004AAD;
     }
 
     .navbar-links li a {
         padding: 0.2rem 1rem;
-        color: white;
+        color: #004AAD;
     }
 
     .navbar-links li a:hover {
+        width: 100%;
+        margin: 0;
         background-color: #FA7C07;
+        color: #004AAD;
     }
 
     .navbar-links.active {
@@ -125,10 +144,6 @@ body {
     position: absolute;
     top: 50px;
     z-index: -1;
-}
-
-#home-text, #home-text h2 {
-    color: #fff;
 }
 
 #hero-img {
@@ -158,19 +173,20 @@ body {
 /* Home text overlaying hero img */
 
 #home-text {
-    font-size: 130%;
-    font-family: Arial, Helvetica, sans-serif;
-    text-transform: uppercase;
-    letter-spacing: 4px;
+    font-size: 140%;
+    font-family: 'Roboto Slab', serif;
+    text-transform: capitalize;
+    letter-spacing: 3px;
+    color: #F5F5F5;
 
     width: 300px;
     height: 200px;
-    border-radius: 5%;
+    /* border-radius: 5%; */
 
     padding-top: 10px;
     padding-left: 15px;
 
-    background-color: rgba(0, 74, 173, .8);
+    background-color: rgba(73, 73, 73, 0.95);
 
     top: 200px;
     left: 50px;
@@ -195,7 +211,7 @@ body {
     width: 300px;
     height: 60px;
     border-radius: 10px;
-    border: solid 3px #fa7c075d;
+    border: .5px solid #004AAD;
 
     padding: 10px 5px;
 
@@ -206,10 +222,15 @@ body {
     position: absolute;
 }
 
+.call-to-action:hover {
+    background-color: #004AAD;
+}
+
 .call-to-action a {
     text-decoration: none;
     color: white;
     font-weight: 900;
+    text-shadow: -1px 0 #004AAD, 0 1px #004AAD, 1px 0 #004AAD, 0 -1px #004AAD;
 }
 
 /* footer */
@@ -243,5 +264,13 @@ body {
     display: block;
     padding: 0 40px;
     color: #004AAD;
+    font-size: 2rem;
+}
+
+.footer_container li a:hover {
+    text-decoration: none;
+    display: block;
+    padding: 0 40px;
+    color: #FA7C07;
     font-size: 2rem;
 }
