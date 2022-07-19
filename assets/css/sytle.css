@@ -210,3 +210,41 @@ body {
     color: white;
     font-weight: 900;
 }
+
+/* footer */
+
+.footer_container {
+    height: 120px;
+    width: 100%;
+    background-color: #F5F5F5;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+
+}
+
+.footer_container h2 {
+    display: flex;
+    justify-content: center;
+    color: #004AAD;
+}
+
+.footer_container ul {
+    display: flex;
+    justify-content: center;
+}
+
+.footer_container li {
+    list-style: none;
+}
+
+.footer_container li a {
+    text-decoration: none;
+    display: block;
+    padding: 0 50px;
+    margin: 1000px, 20px;
+    color: #004AAD;
+    font-size: 2rem;
+
+
+}
