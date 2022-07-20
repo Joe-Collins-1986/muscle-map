@@ -334,3 +334,51 @@ body {
     }
 
 }
+
+/* CHEST SCC */
+
+.background-blue {
+    background-color: #004AAD;
+    width: 100%;
+    height: 100%;
+
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    
+}
+
+#chest-top {
+    border: 5px solid red;
+    display: flex;
+}
+
+.chest-img-container {
+    width: 60%;
+    height: 370px;
+    overflow: hidden;
+}
+
+.chest-img-container img {
+    width: 100%;
+}
+
+#chest-header {
+    width: 40%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 5px solid rgb(0, 255, 26);
+}
+
+#chest-header h2 {
+    font-size: 300%;
+    color: #F5F5F5;
+
+}
+
+
+
+
+
