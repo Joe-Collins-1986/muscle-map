@@ -253,7 +253,9 @@ body {
 /* responsive home-text max-width 500px */
 
 @media only screen and (max-width: 500px) {
+
     #home-content-container{
+        top: 100px;
         display: flex;
         flex-direction: column;
         justify-content: flex-end;
@@ -341,7 +343,6 @@ body {
     .footer_container li a {
         padding: 0 25px;
     }
-
 }
 
 
