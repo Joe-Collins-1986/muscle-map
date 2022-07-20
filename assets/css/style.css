@@ -354,7 +354,7 @@ body {
 .background-blue {
     background-color: #004AAD;
     width: 100%;
-    height: 100%;
+    height: 100rem;
 
     position: absolute;
     top: 0px;
@@ -511,4 +511,13 @@ body {
     background-color: #F5F5F5;
     border: 3px solid #FA7C07;
     color: #004AAD;
+}
+
+.chest-exercises-container h3 {
+    text-align: center;
+}
+
+.comp-iso-diff {
+    display: flex;
+    justify-content: center;
 }
