@@ -306,6 +306,7 @@ body {
 .footer_container ul {
     display: flex;
     justify-content: center;
+    padding: 0;
 }
 
 .footer_container li {
@@ -321,9 +322,14 @@ body {
 }
 
 .footer_container li a:hover {
-    text-decoration: none;
-    display: block;
-    padding: 0 40px;
     color: #FA7C07;
-    font-size: 2rem;
+}
+
+/* minimise icon padding for under 500px */
+
+@media only screen and (max-width: 500px) {
+    .footer_container li a {
+        padding: 0 25px;
+    }
+
 }
