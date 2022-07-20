@@ -329,11 +329,22 @@ body {
 /* minimise icon padding for under 500px */
 
 @media only screen and (max-width: 500px) {
+    
+    .footer_container {
+        height: 90px;
+    }
+
+    .footer_container h2 {
+        margin: 5px 0 0 0;
+    }
+    
     .footer_container li a {
         padding: 0 25px;
     }
 
 }
+
+
 
 /* CHEST SCC */
 
@@ -351,10 +362,9 @@ body {
 
 #chest-top {
     display: flex;
-    margin-top: 20px;
+    margin-top: 30px;
     position: relative;
     left: -0.5rem;
-    /* border: 3px solid rgb(0, 255, 51); */
 }
 
 .chest-img-container {
@@ -371,7 +381,6 @@ body {
 
 #chest-header-outer {
     width: 40%;
-    /* border: 3px solid red; */
     display: flex;
     justify-content: center;
     align-items: center;
@@ -379,7 +388,6 @@ body {
 
 #chest-header {
     width: 80%;
-    /* border: 3px solid rgb(255, 0, 234); */
     display: flex;
     justify-content: center;
     align-items: center;
@@ -415,17 +423,16 @@ body {
         width: 88%;
         height: 5.5rem;
         position: absolute;
-        /* border: 3px solid red; */
         display: flex;
         justify-content: center;
         align-items: center;
         top: 272px;
         background-color: rgba(73, 73, 73, 0.95);
+        border-radius: 7px;
     }
 
     #chest-header {
         width: 100%;
-        /* border: 3px solid rgb(255, 0, 234); */
         display: flex;
         justify-content: center;
         align-items: center;
@@ -433,7 +440,6 @@ body {
     }
 
 }
-
 
 @media only screen and (max-width: 650px) {
 
@@ -451,6 +457,5 @@ body {
         color: #F5F5F5;
     
     }
-
 
 }
