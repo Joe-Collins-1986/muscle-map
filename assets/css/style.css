@@ -397,7 +397,7 @@ body {
     text-align: center;
 }
 
-#chest-header h2 {
+#chest-header h1 {
     font-size: 500%;
     color: #F5F5F5;
 
@@ -459,7 +459,7 @@ body {
         top: 179px;
     }
 
-    #chest-header h2 {
+    #chest-header h1 {
         font-size: 200%;
         color: #F5F5F5;
     
@@ -469,11 +469,46 @@ body {
 
 /* chest excercise section */
 
+/* into to chest */
+
 #chest-excercises {
     margin: 40px 0 0 0;
     width: 100%;
     height: 40rem;
+
     display: flex;
-    background-color: aqua;
-    border: 3px solid red;
+    flex-direction: column;
+    align-items: center;
+}
+
+.chest-excercise-intro {
+    width: 90%;
+    padding: 0 15px;
+    background-color: #F5F5F5;
+    border: 3px solid #FA7C07;
+    color: #004AAD;
+}
+
+.chest-exercises-container {
+    display: flex;
+    width: 90%;
+    margin-top: 10px;
+}
+
+.chest-compound {
+    width: 50%;
+    padding: 0 10px;
+    margin-right: 5px;
+    background-color: #F5F5F5;
+    border: 3px solid #FA7C07;
+    color: #004AAD;
+}
+
+.chest-isolation {
+    width: 50%;
+    margin-left: 5px;
+    padding: 0 10px;
+    background-color: #F5F5F5;
+    border: 3px solid #FA7C07;
+    color: #004AAD;
 }
