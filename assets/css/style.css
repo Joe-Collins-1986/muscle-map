@@ -347,7 +347,9 @@ body {
 
 
 
-/* CHEST SCC */
+/* ########## CHEST ########## */
+
+/* background */
 
 .background-blue {
     background-color: #004AAD;
@@ -355,11 +357,11 @@ body {
     height: 100%;
 
     position: absolute;
-    top: 0;
-    left: 0;
+    top: 0px;
     z-index: -1;
-    
 }
+
+/* chest top section */
 
 #chest-top {
     display: flex;
@@ -405,6 +407,8 @@ body {
     color: #FA7C07;
 }
 
+/* chest top section - responsive max-width 1000px */
+
 @media only screen and (max-width: 1000px) {
 
     #chest-top {
@@ -442,6 +446,8 @@ body {
 
 }
 
+/* chest top section - responsive max-width 650px */
+
 @media only screen and (max-width: 650px) {
 
     .chest-img-container {
@@ -459,4 +465,15 @@ body {
     
     }
 
+}
+
+/* chest excercise section */
+
+#chest-excercises {
+    margin: 40px 0 0 0;
+    width: 100%;
+    height: 40rem;
+    display: flex;
+    background-color: aqua;
+    border: 3px solid red;
 }
