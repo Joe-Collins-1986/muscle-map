@@ -409,9 +409,9 @@ body {
     color: #FA7C07;
 }
 
-/* chest top section - responsive max-width 1000px */
+/* chest top section - responsive max-width 1100px */
 
-@media only screen and (max-width: 1000px) {
+@media only screen and (max-width: 1100px) {
 
     #chest-top {
         display: flex;
@@ -450,7 +450,7 @@ body {
 
 /* chest top section - responsive max-width 650px */
 
-@media only screen and (max-width: 650px) {
+@media only screen and (max-width: 750px) {
 
     .chest-img-container {
         height: 14rem;
