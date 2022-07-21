@@ -525,6 +525,11 @@ body {
 .chest-exercises-container a {
     text-align: center;
     font-size: 120%;
+    color: #004AAD;
+}
+
+.chest-exercises-container a:hover {
+    color: #FA7C07;
 }
 
 .comp-iso-diff {
@@ -548,4 +553,15 @@ body {
 
 .exercise-block p {
     padding-left: 10px;
+    font-size: 120%;
+}
+
+.exercise-block ul {
+    list-style: none;
+    padding-left: 20px;
+}
+
+.exercise-block a {
+    text-decoration: none;
+    line-height: 150%;
 }
