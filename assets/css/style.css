@@ -517,8 +517,14 @@ body {
 
 .chest-exercises-container h3 {
     text-align: center;
+    font-size: 130%;
     width: 207px;
     margin: 0 0 15px 0;
+}
+
+.chest-exercises-container a {
+    text-align: center;
+    font-size: 120%;
 }
 
 .comp-iso-diff {
