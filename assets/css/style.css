@@ -448,7 +448,7 @@ body {
 
 }
 
-/* chest top section - responsive max-width 650px */
+/* chest top section - responsive max-width 750px */
 
 @media only screen and (max-width: 750px) {
 
@@ -482,6 +482,8 @@ body {
     flex-direction: column;
     align-items: center;
 }
+
+/* chest table content */
 
 .chest-excercise-intro {
     width: 90%;
@@ -521,6 +523,7 @@ body {
     width: 207px;
     margin: 0 0 15px 0;
 }
+
 
 .chest-exercises-container a {
     text-align: center;
@@ -564,4 +567,27 @@ body {
 .exercise-block a {
     text-decoration: none;
     line-height: 150%;
+}
+
+/* chest excercises section - responsive max-width 750px */
+
+@media only screen and (max-width: 750px) {
+    
+    
+    
+    .chest-exercises-container {
+        flex-direction: column;
+    }
+
+    .chest-compound {
+        width: 100%;
+        margin: 0 0 10px 0;
+    }
+
+    .chest-isolation {
+        width: 100%;
+        margin: 0;
+        justify-content: center;
+        align-items: center;
+    }
 }
