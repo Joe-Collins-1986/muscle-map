@@ -475,7 +475,7 @@ body {
 
 /* chest exercise section */
 
-/* into to chest */
+/* into to exercise */
 
 .exercises-section {
     margin: 40px 0 0 0;
@@ -572,10 +572,9 @@ body {
     line-height: 150%;
 }
 
-/* chest exercises section - responsive max-width 750px */
+/* exercises section - responsive max-width 750px */
 
 @media only screen and (max-width: 750px) {
-    
     
     
     .exercise-instruction-container-blue-text {
@@ -595,7 +594,7 @@ body {
     }
 }
 
-/* call to action fpr muscle pages */
+/* call to action for exercise pages */
 
 .cta-container {
 
