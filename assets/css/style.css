@@ -372,6 +372,8 @@ body {
 
 /* set up img container specific to each image requirement */
 
+/* ............................................ */
+
 .chest-img-container {
     width: 60%;
     height: 370px;
@@ -383,6 +385,23 @@ body {
 .chest-img-container img {
     width: 100%;
 }
+
+.abs-img-container {
+    width: 60%;
+    height: 370px;
+    overflow: hidden;
+    border: 3px solid #FA7C07;
+    border-radius: 10px;
+}
+
+.abs-img-container img {
+    width: 100%;
+    height: 390px;
+    object-fit: cover;
+
+}
+
+/* ............................................ */
 
 #exercise-header-outer {
     width: 40%;
