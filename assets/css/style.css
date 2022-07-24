@@ -229,7 +229,7 @@ body {
     width: 300px;
     height: 60px;
     border-radius: 10px;
-    border: .5px solid #004AAD;
+    border: .5px solid white;
 
     padding: 10px 5px;
 
@@ -345,7 +345,11 @@ body {
     }
 }
 
-/* ########## CHEST ########## */
+
+
+
+/* ########## EXERCISES ########## */
+/* ############ PAGES ############ */
 
 /* background */
 
@@ -357,14 +361,16 @@ body {
     background-color: #FA7C07;
 }
 
-/* chest top section */
+/* top section */
 
-#chest-top {
+#exercise-top {
     display: flex;
     margin-top: 30px;
     position: relative;
     left: -0.5rem;
 }
+
+/* set up img container specific to each image requirement */
 
 .chest-img-container {
     width: 60%;
@@ -378,14 +384,14 @@ body {
     width: 100%;
 }
 
-#chest-header-outer {
+#exercise-header-outer {
     width: 40%;
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
-#chest-header {
+#exercise-header {
     width: 80%;
     display: flex;
     justify-content: center;
@@ -393,7 +399,7 @@ body {
     text-align: center;
 }
 
-#chest-header h1 {
+#exercise-header h1 {
     font-size: 120%;
     font-family: 'Roboto Slab', serif;
     font-size: 500%;
@@ -401,15 +407,19 @@ body {
 
 }
 
-.chest-orange {
+.header-colored-word-orange {
     color: #FA7C07;
+}
+
+.header-colored-word-blue {
+    color: #004AAD;
 }
 
 /* chest top section - responsive max-width 1100px */
 
 @media only screen and (max-width: 1100px) {
 
-    #chest-top {
+    #exercise-top {
         display: flex;
         flex-direction: column;
         justify-content: center;
@@ -422,7 +432,7 @@ body {
         width: 90%;
     }
 
-    #chest-header-outer {
+    #exercise-header-outer {
         width: 88%;
         height: 5.5rem;
         position: absolute;
@@ -434,7 +444,7 @@ body {
         border-radius: 7px;
     }
 
-    #chest-header {
+    #exercise-header {
         width: 100%;
         display: flex;
         justify-content: center;
@@ -444,7 +454,7 @@ body {
 
 }
 
-/* chest top section - responsive max-width 750px */
+/* exercise top section - responsive max-width 750px */
 
 @media only screen and (max-width: 750px) {
 
@@ -452,12 +462,12 @@ body {
         height: 14rem;
     }
 
-    #chest-header-outer {
+    #exercise-header-outer {
         height: 2.5rem;
         top: 179px;
     }
 
-    #chest-header h1 {
+    #exercise-header h1 {
         font-size: 200%;
     }
 
@@ -467,19 +477,18 @@ body {
 
 /* into to chest */
 
-#chest-exercises {
+.exercises-section {
     margin: 40px 0 0 0;
     width: 100%;
-    /* height: 35rem; */
 
     display: flex;
     flex-direction: column;
     align-items: center;
 }
 
-/* chest table content */
+/* exercise table content */
 
-.chest-exercise-intro {
+.exercise-intro-border-orange {
     width: 90%;
     padding: 0 15px;
     background-color: #F5F5F5;
@@ -487,13 +496,13 @@ body {
     color: #004AAD;
 }
 
-.chest-exercises-container {
+.exercise-instruction-container-blue-text {
     display: flex;
     width: 90%;
     margin-top: 10px;
 }
 
-.chest-compound {
+.compound-border-orange {
     width: 50%;
     padding: 0;
     margin-right: 5px;
@@ -502,7 +511,7 @@ body {
     color: #004AAD;
 }
 
-.chest-isolation {
+.isolation-border-orange {
     width: 50%;
     margin-left: 5px;
     padding: 0;
@@ -511,7 +520,7 @@ body {
     color: #004AAD;
 }
 
-.chest-exercises-container h3 {
+.exercise-instruction-container-blue-text h3 {
     text-align: center;
     font-size: 130%;
     width: 207px;
@@ -519,13 +528,13 @@ body {
 }
 
 
-.chest-exercises-container a {
+.exercise-instruction-container-blue-text a {
     text-align: center;
     font-size: 120%;
     color: #004AAD;
 }
 
-.chest-exercises-container a:hover {
+.exercise-instruction-container-blue-text a:hover {
     color: #FA7C07;
 }
 
@@ -534,7 +543,7 @@ body {
     justify-content: center;
 }
 
-.header-block {
+.header-block-border-orange {
     border-bottom: 3px solid #FA7C07;
     width: 100%;
     margin: 0;
@@ -569,16 +578,16 @@ body {
     
     
     
-    .chest-exercises-container {
+    .exercise-instruction-container-blue-text {
         flex-direction: column;
     }
 
-    .chest-compound {
+    .compound-border-orange {
         width: 100%;
         margin: 0 0 10px 0;
     }
 
-    .chest-isolation {
+    .isolation-border-orange {
         width: 100%;
         margin: 0;
         justify-content: center;
@@ -599,7 +608,7 @@ body {
 
 }
 
-.call-to-action-muscle-pages {
+.cta-exercise-pages-orange {
     font-size: 180%;
     font-family: Arial, Helvetica, sans-serif;
     text-transform: uppercase;
@@ -617,7 +626,7 @@ body {
 
 }
 
-.call-to-action-muscle-pages a {
+.cta-exercise-pages-orange a {
     width: 100%;
     height: 60px;
     text-decoration: none;
@@ -630,12 +639,12 @@ body {
     align-items: center;
 }
 
-.call-to-action-muscle-pages:hover {
+.cta-exercise-pages-orange:hover {
     background-color: #F5F5F5;
     border: 3px solid #FA7C07;
 }
 
-.call-to-action-muscle-pages a:hover {
+.cta-exercise-pages-orange a:hover {
     color: #FA7C07;
 }
 
@@ -646,7 +655,6 @@ body {
     height: 120px;
     width: 100%;
     margin-top: 20px;
-    background-color: red;
 }
 
 @media only screen and (max-width: 500px) {
@@ -654,64 +662,4 @@ body {
     .footer-spacing {
         height: 90px;    
     }
-}
-
-/* ########## SHOULDERS ########## */
-
-/* background */
-
-/* background */
-
-.background-orange {
-    background-color: #FA7C07;
-    width: 100%;
-    height: 80rem;
-
-    position: absolute;
-    top: 0px;
-    z-index: -1;
-}
-
-.chest-orange {
-    color: #004AAD;
-}
-
-.call-to-action-muscle-pages-orange-bg {
-    font-size: 180%;
-    font-family: Arial, Helvetica, sans-serif;
-    text-transform: uppercase;
-    letter-spacing: 2px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-
-    width: 300px;
-    height: 60px;
-    border-radius: 10px;
-    border: .5px solid white;
-
-    background-color: #004AAD;
-
-}
-
-.call-to-action-muscle-pages-orange-bg a {
-    width: 100%;
-    height: 60px;
-    text-decoration: none;
-    color: white;
-    font-weight: 900;
-    text-shadow: -1px 0 #004AAD, 0 1px #004AAD, 1px 0 #004AAD, 0 -1px #004AAD;
-
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.call-to-action-muscle-pages-orange-bg:hover {
-    background-color: #F5F5F5;
-    border: 3px solid #004AAD;
-}
-
-.call-to-action-muscle-pages-orange-bg a:hover {
-    color: #004AAD;
 }
