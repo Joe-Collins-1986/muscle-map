@@ -181,6 +181,9 @@ body {
 
 }
 
+/* ########## INDEX ########## */
+/* ########## PAGE  ########## */
+
 /* Home text overlaying hero img */
 
 #home-content-container {
@@ -275,10 +278,6 @@ body {
         padding: 0;
 
         text-align: center;
-
-        display: flex;
-        justify-content: flex-start;
-        align-items: center;
     }
 
     .call-to-action {
@@ -459,21 +458,14 @@ body {
 
 /* ............................................ */
 
-.exercise-header-outer {
+.exercise-header-outer, .exercise-header-outer-org-background {
     width: 40%;
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
-.exercise-header-outer-org-background {
-    width: 40%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.exercise-header {
+.exercise-header, .exercise-header-org-background {
     width: 80%;
     display: flex;
     justify-content: center;
@@ -481,23 +473,7 @@ body {
     text-align: center;
 }
 
-.exercise-header-org-background {
-    width: 80%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-}
-
-.exercise-header h1 {
-    font-size: 120%;
-    font-family: 'Roboto Slab', serif;
-    font-size: 500%;
-    color: #F5F5F5;
-
-}
-
-.exercise-header-org-background h1 {
+.exercise-header h1, .exercise-header-org-background h1 {
     font-size: 120%;
     font-family: 'Roboto Slab', serif;
     font-size: 500%;
@@ -517,16 +493,7 @@ body {
 
 @media only screen and (max-width: 1100px) {
    
-    .exercise-top {
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        margin-top: 10px;
-        left: 0;
-    }
-
-    .exercise-top-right {
+    .exercise-top, .exercise-top-right {
         display: flex;
         flex-direction: column;
         justify-content: center;
@@ -539,23 +506,7 @@ body {
         color: #FA7C07;
     }
 
-    .chest-img-container {
-        width: 90%;
-    }
-
-    .abs-img-container {
-        width: 90%;
-    }
-
-    .shoulders-img-container {
-        width: 90%;
-    }
-
-    .back-img-container {
-        width: 90%;
-    }
-
-    .legs-img-container {
+    .chest-img-container, .abs-img-container, .shoulders-img-container, .back-img-container, .legs-img-container {
         width: 90%;
     }
 
@@ -596,28 +547,12 @@ body {
 
 @media only screen and (max-width: 750px) {
 
-    .chest-img-container {
-        height: 14rem;
-    }
-
-    .abs-img-container {
+    .chest-img-container, .abs-img-container, .shoulders-img-container, .back-img-container, .legs-img-container  {
         height: 14rem;
     }
 
     .abs-img-container img {
         object-position: 0 -110px;
-    }
-
-    .shoulders-img-container {
-        height: 14rem;
-    }
-
-    .back-img-container {
-        height: 14rem;
-    }
-
-    .legs-img-container {
-        height: 14rem;
     }
 
     .legs-img-container img {
@@ -788,24 +723,12 @@ body {
         flex-direction: column;
     }
 
-    .compound-border-orange {
+    .compound-border-orange, .compound-border-blue {
         width: 100%;
         margin: 0 0 10px 0;
     }
 
-    .compound-border-blue {
-        width: 100%;
-        margin: 0 0 10px 0;
-    }
-
-    .isolation-border-orange {
-        width: 100%;
-        margin: 0;
-        justify-content: center;
-        align-items: center;
-    }
-
-    .isolation-border-blue {
+    .isolation-border-orange, .isolation-border-blue {
         width: 100%;
         margin: 0;
         justify-content: center;
@@ -862,20 +785,7 @@ body {
 
 }
 
-.cta-exercise-pages-orange a {
-    width: 100%;
-    height: 60px;
-    text-decoration: none;
-    color: white;
-    font-weight: 900;
-    text-shadow: -1px 0 #004AAD, 0 1px #004AAD, 1px 0 #004AAD, 0 -1px #004AAD;
-
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.cta-exercise-pages-blue a {
+.cta-exercise-pages-orange a, .cta-exercise-pages-blue a {
     width: 100%;
     height: 60px;
     text-decoration: none;
@@ -920,3 +830,8 @@ body {
         height: 90px;    
     }
 }
+
+
+/* ########## PLAN ########## */
+/* ########## PAGE ########## */
+
