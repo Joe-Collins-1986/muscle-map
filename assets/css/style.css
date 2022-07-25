@@ -158,7 +158,6 @@ body {
     animation-fill-mode: forwards;
 }
 
-
 /* create level of zoom for hero img */
 
 @keyframes hero-zoom {
@@ -347,7 +346,6 @@ body {
 
 
 
-
 /* ########## EXERCISES ########## */
 /* ############ PAGES ############ */
 
@@ -368,6 +366,13 @@ body {
     margin-top: 30px;
     position: relative;
     left: -0.5rem;
+}
+
+.exercise-top-right {
+    display: flex;
+    margin-top: 30px;
+    position: relative;
+    left: 5rem;
 }
 
 .exercises-section {
@@ -428,7 +433,7 @@ body {
     width: 60%;
     height: 370px;
     overflow: hidden;
-    border: 3px solid #FA7C07;
+    border: 3px solid #004AAD;
     border-radius: 10px;
 }
 
@@ -447,6 +452,13 @@ body {
     align-items: center;
 }
 
+.exercise-header-outer-org-background {
+    width: 40%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 .exercise-header {
     width: 80%;
     display: flex;
@@ -455,7 +467,23 @@ body {
     text-align: center;
 }
 
+.exercise-header-org-background {
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
 .exercise-header h1 {
+    font-size: 120%;
+    font-family: 'Roboto Slab', serif;
+    font-size: 500%;
+    color: #F5F5F5;
+
+}
+
+.exercise-header-org-background h1 {
     font-size: 120%;
     font-family: 'Roboto Slab', serif;
     font-size: 500%;
@@ -484,6 +512,19 @@ body {
         left: 0;
     }
 
+    .exercise-top-right {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-top: 10px;
+        left: 0;
+    }
+
+    .header-colored-word-blue {
+        color: #FA7C07;
+    }
+
     .chest-img-container {
         width: 90%;
     }
@@ -496,12 +537,25 @@ body {
         width: 90%;
     }
 
+    .back-img-container {
+        width: 90%;
+    }
+
     .exercise-header-outer {
         width: 88%;
         height: 4rem;
         position: absolute;
         top: 300px;
         background-color: rgba(73, 73, 73, 0.95);
+        border-radius: 7px;
+    }
+
+    .exercise-header-outer-org-background {
+        width: 88%;
+        height: 4rem;
+        position: absolute;
+        top: 300px;
+        background-color: #004AAD;
         border-radius: 7px;
     }
 
@@ -540,7 +594,16 @@ body {
         height: 14rem;
     }
 
+    .back-img-container {
+        height: 14rem;
+    }
+
     .exercise-header-outer {
+        height: 2.5rem;
+        top: 179px;
+    }
+
+    .exercise-header-outer-org-background {
         height: 2.5rem;
         top: 179px;
     }
@@ -573,6 +636,14 @@ body {
     color: #004AAD;
 }
 
+.exercise-intro-border-blue {
+    width: 90%;
+    padding: 0 15px;
+    background-color: #F5F5F5;
+    border: 3px solid #004AAD;
+    color: #004AAD;
+}
+
 .exercise-instruction-container-blue-text {
     display: flex;
     width: 90%;
@@ -588,6 +659,15 @@ body {
     color: #004AAD;
 }
 
+.compound-border-blue {
+    width: 50%;
+    padding: 0;
+    margin-right: 5px;
+    background-color: #F5F5F5;
+    border: 3px solid #004AAD;
+    color: #004AAD;
+}
+
 .isolation-border-orange {
     width: 50%;
     margin-left: 5px;
@@ -597,13 +677,21 @@ body {
     color: #004AAD;
 }
 
+.isolation-border-blue {
+    width: 50%;
+    margin-left: 5px;
+    padding: 0;
+    background-color: #F5F5F5;
+    border: 3px solid #004AAD;
+    color: #004AAD;
+}
+
 .exercise-instruction-container-blue-text h3 {
     text-align: center;
     font-size: 130%;
     width: 207px;
     margin: 0 0 15px 0;
 }
-
 
 .exercise-instruction-container-blue-text a {
     text-align: center;
@@ -622,6 +710,20 @@ body {
 
 .header-block-border-orange {
     border-bottom: 3px solid #FA7C07;
+    width: 100%;
+    margin: 0;
+    padding: 10px 5px;
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+}
+
+.header-block-border-blue {
+    border-bottom: 3px solid #004AAD;
     width: 100%;
     margin: 0;
     padding: 10px 5px;
@@ -663,7 +765,19 @@ body {
         margin: 0 0 10px 0;
     }
 
+    .compound-border-blue {
+        width: 100%;
+        margin: 0 0 10px 0;
+    }
+
     .isolation-border-orange {
+        width: 100%;
+        margin: 0;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .isolation-border-blue {
         width: 100%;
         margin: 0;
         justify-content: center;
@@ -702,7 +816,38 @@ body {
 
 }
 
+.cta-exercise-pages-blue {
+    font-size: 180%;
+    font-family: Arial, Helvetica, sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    width: 300px;
+    height: 60px;
+    border-radius: 10px;
+    border: .5px solid white;
+
+    background-color: #004AAD;
+
+}
+
 .cta-exercise-pages-orange a {
+    width: 100%;
+    height: 60px;
+    text-decoration: none;
+    color: white;
+    font-weight: 900;
+    text-shadow: -1px 0 #004AAD, 0 1px #004AAD, 1px 0 #004AAD, 0 -1px #004AAD;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cta-exercise-pages-blue a {
     width: 100%;
     height: 60px;
     text-decoration: none;
@@ -720,10 +865,18 @@ body {
     border: 3px solid #FA7C07;
 }
 
+.cta-exercise-pages-blue:hover {
+    background-color: #F5F5F5;
+    border: 3px solid #004AAD;
+}
+
 .cta-exercise-pages-orange a:hover {
     color: #FA7C07;
 }
 
+.cta-exercise-pages-blue a:hover {
+    color: #004AAD;
+}
 
 /* footer-spacing div */
 
