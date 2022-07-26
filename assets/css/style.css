@@ -916,27 +916,15 @@ body {
     box-shadow: 8px 8px 12px #313030;
     color: #004AAD;
     font-weight: 500;
-
-    animation-name: card-transform;
-    animation-duration: 2s;
-    animation-fill-mode: forwards;
-
 }
 
-.cards p, .cards h3, table {
-    visibility: hidden;
-
-    animation-name: unhide-text;
-    animation-duration: 2s;
-    animation-fill-mode: forwards;
+.fa-arrow-down {
+    animation: arrow-fade 3s;
 }
 
-@keyframes card-transform {
-    0% {height: 0;}
-}
-@keyframes unhide-text {
-    99% {visibility: hidden;}
-    100% {visibility: visible;}
+@keyframes arrow-fade {
+    0% { opacity: 0; }
+  90% { opacity: 1; }
 }
 
 .cards h3 {
