@@ -907,7 +907,6 @@ body {
     flex-direction: column;
     top: -10rem;
     background-color: white;
-    /* height: 50rem; */
     width: 40%;
     margin: 0;
     background: linear-gradient(to right bottom, rgba(255, 255, 255, 0.7), rgba(255, 255, 255, 0.3));
