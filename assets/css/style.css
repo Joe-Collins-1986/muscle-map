@@ -890,20 +890,23 @@ body {
 .cards-container {
     display: flex;
     justify-content: space-evenly;
-    /* align-items: center; */
 
 }
 
 .cards {
     position: relative;
+    display: flex;
+    flex-direction: column;
     top: -10rem;
     background-color: white;
-    height: 30rem;
-    width: 30%;
+    height: 50rem;
+    width: 40%;
     margin: 0;
     background: linear-gradient(to right bottom, rgba(255, 255, 255, 0.7), rgba(255, 255, 255, 0.3));
     border-radius: 1rem;
     backdrop-filter: blur(2rem);
+    box-shadow: 8px 8px 12px #313030;
+    color: #004AAD;
 
     animation-name: card-transform;
     animation-duration: 2s;
@@ -926,3 +929,33 @@ body {
     99% {visibility: hidden;}
     100% {visibility: visible;}
 }
+
+.cards h3 {
+    text-align: center;
+    font-size: 130%;
+    color: #004AAD;
+    margin: 0;
+    padding: 1rem 0;
+    border-bottom: 1px solid white;
+}
+
+.cards p {
+    margin: 1rem 1rem;
+
+}
+
+.table-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+table, th, td {
+    text-align: center;
+    border: 1px solid #FA7C07;
+}
+
+th, td {
+    padding: 0.25rem;
+}
+
