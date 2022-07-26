@@ -907,7 +907,7 @@ body {
     flex-direction: column;
     top: -10rem;
     background-color: white;
-    height: 50rem;
+    /* height: 50rem; */
     width: 40%;
     margin: 0;
     background: linear-gradient(to right bottom, rgba(255, 255, 255, 0.7), rgba(255, 255, 255, 0.3));
@@ -916,6 +916,20 @@ body {
     box-shadow: 8px 8px 12px #313030;
     color: #004AAD;
     font-weight: 500;
+}
+
+@media only screen and (max-width: 900px) {
+
+    .cards-container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .cards {
+        width: 90%;
+        top: auto;
+        margin-bottom: 2rem;
+    }
 }
 
 .fa-arrow-down {
@@ -945,6 +959,10 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+table {
+    width: 100%;
 }
 
 table, th, td {
