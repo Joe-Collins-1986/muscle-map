@@ -277,7 +277,12 @@ body {
         margin: 0;
         padding: 0;
 
+        align-items: center;
         text-align: center;
+    }
+
+    #home-text h1 {
+        margin: 0;
     }
 
     .call-to-action {
@@ -850,6 +855,17 @@ body {
     margin: 0;
 }
 
+.fa-arrow-down {
+    animation: arrow-fade 4s;
+}
+
+@keyframes arrow-fade {
+    0% { opacity: 0; }
+  30% { opacity: 1; }
+  60% { opacity: 0; }
+  90% { opacity: 1; }
+}
+
 /* title size reduction */
 
 @media only screen and (max-width: 1300px) {
@@ -909,13 +925,22 @@ body {
     background-color: white;
     width: 40%;
     margin: 0;
-    background: linear-gradient(to right bottom, rgba(255, 255, 255, 0.7), rgba(255, 255, 255, 0.3));
+    background: linear-gradient(to right bottom, rgba(255, 255, 255, 0.8), rgba(255, 255, 255, 0.4));
     border-radius: 1rem;
     backdrop-filter: blur(2rem);
     box-shadow: 8px 8px 12px #313030;
     color: #004AAD;
     font-weight: 500;
+
+    transition: background-color 2s ease-out 100ms;
 }
+
+.cards:hover {
+    background-color: #FA7C07;
+}
+
+
+
 
 @media only screen and (max-width: 900px) {
 
@@ -929,15 +954,6 @@ body {
         top: auto;
         margin-bottom: 2rem;
     }
-}
-
-.fa-arrow-down {
-    animation: arrow-fade 3s;
-}
-
-@keyframes arrow-fade {
-    0% { opacity: 0; }
-  90% { opacity: 1; }
 }
 
 .cards h3 {
@@ -962,6 +978,12 @@ body {
 
 table {
     width: 100%;
+}
+
+th, td {
+    text-align: center;
+    border: 1px solid #FA7C07;
+    background-color: #F5F5F5;
 }
 
 table, th, td {
