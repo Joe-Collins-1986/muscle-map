@@ -830,7 +830,7 @@ body {
 }
 
 .plan-title {
-    width: 60%;
+    width: 70%;
     height: 6.5rem;
     display: flex;
     align-items: center;
@@ -850,9 +850,9 @@ body {
     margin: 0;
 }
 
-/* title size reduction - responsive max-width 1350px */
+/* title size reduction */
 
-@media only screen and (max-width: 1150px) {
+@media only screen and (max-width: 1300px) {
 
     .plan-title {
         height: 5rem;
@@ -860,7 +860,7 @@ body {
     }
 }
 
-@media only screen and (max-width: 900px) {
+@media only screen and (max-width: 1050px) {
 
     .plan-title {
         height: 4rem;
@@ -868,7 +868,7 @@ body {
     }
 }
 
-@media only screen and (max-width: 700px) {
+@media only screen and (max-width: 800px) {
 
     .plan-title {
         height: 3rem;
@@ -876,11 +876,19 @@ body {
     }
 }
 
-@media only screen and (max-width: 500px) {
+@media only screen and (max-width: 550px) {
 
     .plan-title {
         height: 2.5rem;
         font-size: 150%;
+    }
+}
+
+@media only screen and (max-width: 550px) {
+
+    .plan-title {
+        height: 2.5rem;
+        font-size: 120%;
     }
 }
 
@@ -907,6 +915,7 @@ body {
     backdrop-filter: blur(2rem);
     box-shadow: 8px 8px 12px #313030;
     color: #004AAD;
+    font-weight: 500;
 
     animation-name: card-transform;
     animation-duration: 2s;
@@ -914,7 +923,7 @@ body {
 
 }
 
-.cards p, .cards h3 {
+.cards p, .cards h3, table {
     visibility: hidden;
 
     animation-name: unhide-text;
@@ -955,7 +964,22 @@ table, th, td {
     border: 1px solid #FA7C07;
 }
 
-th, td {
+.cards {
     padding: 0.25rem;
+    font-size: 150%;
+}
+
+@media only screen and (max-width: 1450px) {
+
+    .cards {
+        font-size: 125%;
+    }
+}
+
+@media only screen and (max-width: 1250px) {
+
+    .cards {
+        font-size: 100%;
+    }
 }
 
