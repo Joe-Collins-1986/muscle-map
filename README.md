@@ -1,29 +1,7 @@
-Useful shortcuts:
-
-Result	Keys
-Duplicate line of code:	Shift + Options + Down Arrow
-Refresh cahing – no cashing	Command + Shift + R
-	
-	
-	
-	
-	
-
-Git:
-Result	Keys
-Show all commits	git log --oneline
-Show all branches	git branch -a
-Create new branch	git branch branch name
-Merge branch (go to main before completing)	Git merge branch name
-Change branch	git checkout branch name
-Delete branch (go to main before completing)	Git branch -D branch name
-	
-
-
 # Muscle Map Website
 [View the live project here.](https://joe-collins-1986.github.io/muscle-map/)
 
-(Note: this is a fictious client generated for the purpose of developing this project to test my HTML and CSS essentials)
+(**Note:** this is a fictitious client generated for the purpose of developing this project to test my HTML and CSS essentials)
 
 This website has been designed to provide users with a high-level overview of which exercises can be used use to train specific muscle groups. They will then be able to use these exercises to create a workout plan targeted to their number of available training days.
 
@@ -54,9 +32,9 @@ This website has been designed to provide users with a high-level overview of wh
    
    #### **Client Future Goals**
    Wishes which will later be developed to incorporate:
-      - Sale of Muscle Map merchandise.
-      - Advertisement opportunities.
-      - Building a sales platform to connect personal trainers to client’s dependant on specialisation.
+   - Sale of Muscle Map merchandise.
+   - Advertisement opportunities.
+   - Building a sales platform to connect personal trainers to client’s dependant on specialisation.
 
    #### **First time visitor goals**
    1. Acknowledge clear and memorable branding.
@@ -108,7 +86,7 @@ This website has been designed to provide users with a high-level overview of wh
 
 - [Surface Plane](https://www.figma.com/file/M4Emuqqc618HWPX28fgZHk/Muscle-Map-(Surface)?node-id=5%3A182)
 
-NOTE: The structure and wireframes are only to act as a concept and are subject to change as the website development evolves in collaboration with the client.
+**NOTE:** The structure and wireframes are only to act as a concept and are subject to change as the website development evolves in collaboration with the client.
 
 ## Features
 ![Feature Mind Map](assets/readme-assets/2.UX/Features.png)
