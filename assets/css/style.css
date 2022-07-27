@@ -1014,6 +1014,11 @@ table, th, td {
 
 .form-wrapper {
     width: 100%;
-    height: 20rem;
-    background-color: aqua;
+    height: 300px;
+    background-color: red;
 }
+/* 
+.form {
+
+    background-color: red;
+} */
