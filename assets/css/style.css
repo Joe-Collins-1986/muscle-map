@@ -213,6 +213,7 @@ body {
     margin: 0 0 0 50px;
 }
 
+
 .training-text {
     color: #FA7C07;
 }
@@ -938,9 +939,6 @@ body {
 .cards:hover {
     background-color: #FA7C07;
 }
-
-
-
 
 @media only screen and (max-width: 900px) {
 
