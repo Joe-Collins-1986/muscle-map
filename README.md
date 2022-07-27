@@ -202,6 +202,11 @@ Deployed to GitHub Pages within the settings on my GitHub Repository.
 
 ## Media 
 * All images were obtained from Unsplash.
+* Videos were all from Youtube - ScottHermanFitness
+* Links to external websites
+   - https://8fit.com/fitness/compound-vs-isolation-exercises-benefits-and-differences/#what-are-isolation-exercises
+   - https://www.verywellfit.com/abdominal-muscles-anatomy-3120072#mntl-sc-block_1-0-6
+
 
 ## Acknowledgements
 * Thank to my Mentor (Spencer Shelton) for his feedback and guidance.
