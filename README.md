@@ -5,7 +5,6 @@
 
 This website has been designed to provide users with a high-level overview of which exercises can be used use to train specific muscle groups. They will then be able to use these exercises to create a workout plan targeted to their number of available training days.
 
-
 # Responsive Review
 ![Responsive Review](assets/readme-assets/1.responsive/home.png)
 
@@ -18,44 +17,41 @@ This website has been designed to provide users with a high-level overview of wh
 - [Abs](assets/readme-assets/1.responsive/abs.png)
 - [Plan](assets/readme-assets/1.responsive/plan.png)
 
-
 # User Experience (UX)
 ## User stories
 
    #### **Client Goals**
-   The client is a peronal trainer and gym owner.
-   1. Develop brand recogision for his logo and brand colours.
+   The client is a personal trainer and gym owner.
+   1. Develop brand recognition for his logo and brand colours.
    2. Set up a website to generate traffic which will:
-      - drive additional gym attendance.
-      - provide a contact for his personal training.
-   3. Engage with new and first time gym-goers by providing a simple breakdown of which excercises target each muscle and break. 
-   4. Engage with new and first time gym-goers by providing breaking down the difference between compound exercises and isolation exercises with a link to further reading.
-   5. Link excercises to youtube instuction videos. (This will later be replaced with videos the client will generate personally.
+      - <span style="color:red">some *drive additional gym attendance.* text</span>.
+      - <span style="color:red">provide a contact for his personal training.* text</span>.
+   3. Engage with new and first-time gym-goers by providing a simple breakdown of which exercises target each muscle and break. 
+   4. Engage with new and first-time gym-goers by providing breaking down the difference between compound exercises and isolation exercises with a link to further reading.
+   5. Link exercises to YouTube instruction videos. (This will later be replaced with videos the client will generate personally.
    
    #### **Client Future Goals**
    Wishes which will later be developed to incorporate:
       - Sale of Muscle Map merchandise.
-      - Advertisement oppertunities.
-      - Building a sales platform to connect personal trainers to clients dependant on specialisation.
+      - Advertisement opportunities.
+      - Building a sales platform to connect personal trainers to client’s dependant on specialisation.
 
    #### **First time visitor goals**
-   1. Aknowlegde clear and memorable branding.
+   1. Acknowledge clear and memorable branding.
    2. Understand to purpose of the site.
-   3. Simple intuative navigation.
+   3. Simple intuitive navigation.
    4. Easy access to external links provided on the website.
-   5. Clear contact form and links to social media.
-   6. Recieve gym location.
+   5. <span style="color:red">some *Clear contact form and links to social media.* text</span>.
+   6. <span style="color:red">some *Receive gym location.* text</span>.
    7. Gain a basic understanding of the exercises demonstrated and how why they are used.
    8. Clear on all devices.
-
 
    #### **Returning Visitor Goals**
    1. Revisit to access instructional links.
    2. Revisit to access social media links.
-   3. Revisit to create or update trainng plan.
-   4. Revisit to request personal training after being introduced to the fundementals.
+   3. Revisit to create or update training plan.
+   4. Revisit to request personal training after being introduced to the fundamentals.
    5. Revisit to locate gym.
-
 
 ## Design
 
@@ -65,7 +61,7 @@ This website has been designed to provide users with a high-level overview of wh
       - #FA7C07 (Orange)
       - #004AAD (Blue)
 
-   - Colours use to offest text:
+   - Colours use to offset text:
       - #F5F5F5 (Off-White)
       - #494949f2 (grey with slight opacity) 
 
@@ -75,12 +71,12 @@ This website has been designed to provide users with a high-level overview of wh
   - Header, Footer, Standard Content -'Times New Roman', Times, serif
 
   #### **Imagery**
-  - Until the client can provide their own pictures the images will be taken from unsplash. 
+  - Until the client can provide their own pictures the images will be taken from Unsplash. 
   
   These images have been selected to be:
    - Dynamic
    - Pair well with branding colour
-   - approprieate oriantation for the space
+   - Appropriate orientation for the space
 
 ## Structure Non-Linear Plane
 ![Structure Non-Linear Plane](assets/readme-assets/2.UX/Structure-non-linear.png)
@@ -109,7 +105,7 @@ NOTE: The structure and wireframes are only to act as a concept and are subject 
 1. Google Fonts:
 - Used to obtain appropriate fonts to use in website not held as standard.
 2. Font Awesome:
-- Used to obtain a number of icons used to improve the visuals of the website.
+- Used to obtain several icons used to improve the visuals of the website.
 3. Git:
 - Used for version control and to Push to GitHub.
 4. GitHub:
@@ -117,7 +113,7 @@ NOTE: The structure and wireframes are only to act as a concept and are subject 
 6. Figma:
 - Used to plan out website format.
 7. Web Developer:
-- Used to analyse html and css output and correct where required.
+- Used to analyse html and CSS output and correct where required.
 
 # Testing
  ## HTML validator results: 
@@ -131,45 +127,55 @@ NOTE: The structure and wireframes are only to act as a concept and are subject 
  ## CSS validator results
    -[CSS validator results](#)
 
- ## Lighthouse accesablilty results:
-   -[Lighthouse accesablilty results](#)
+ ## Lighthouse accessibility results:
+   -[Lighthouse accessibility results](#)
 
 ## Testing User Stories from User Experience (UX) Section
 #### **Client Goals**
-   1. Develop brand recogision for his logo and brand colours.
-   - REVIEW - Colours provided by the client used consistantly throughout development.
+   1. Develop brand recognition for his logo and brand colours.
+   * **REVIEW - Colours provided by the client used consistently and extensively throughout website.**
    2. Set up a website to generate traffic which will:
       - drive additional gym attendance.
+      # * **REVIEW - Provides location of the gym to drive traffic.**
       - provide a contact for his personal training.
-   3. Engage with new and first time gym-goers by providing a simple breakdown of which excercises target each muscle and break. 
-   4. Engage with new and first time gym-goers by providing breaking down the difference between compound exercises and isolation exercises with a link to further reading.
-   5. Link excercises to youtube instuction videos. (This will later be replaced with videos the client will generate personally.
+      # * **REVIEW - Provides form to contact personal trainer (only managing front end requirements).**
+   3. Engage with new and first-time gym-goers by providing a simple breakdown of which exercises target each muscle and break. 
+   * **REVIEW - Each muscle slit onto its own page with a clear breakdown of exercises to target it**
+   4. Engage with new and first-time gym-goers by providing breaking down the difference between compound exercises and isolation exercises with a link to further reading.
+   * **REVIEW - Link to external source explaining the difference. Used external website section ID to direct user to relevant paragraph**
+   5. Link exercises to YouTube instruction videos. (This will later be replaced with videos the client will generate personally.
+   * **REVIEW - Links to YouTube set up for each exercise. Client specified which YouTuber they wished to reference**
 
 #### **First time visitor goals**
-   1. As a First Time Visitor, I want to immediately identify the main purpose of the website.
-   * Upon entering the site, users are greeted with the band name at the top left corner.
-   * Hero image contains band members with musical instruments which immediately helps to identify the band.
-   * The easiest option upon the opening of the website is to scroll down, which further confirms which band is this website about. 
-   2. As a First Time Visitor, I want to easily navigate through the website.
-   * Navigation bar at the top of each page clearly describes where the user will end up.
-   * Logo at the top left corner always redirects the user back to the home page.
-   3. As a First Time Visitor, I want to easily locate their social media links.
-   * At the footer of each page, there are social media links. It is common to have social links there so a user would expect it to be there.
-   4. As a First Time Visitor, I want the website's colour scheme and general feel to reflect the band's style.
-   * Dark background, contrasting colours and sharp corners are common among rock band websites.
+   1. Acknowledge clear and memorable branding.
+   * **REVIEW - Muscle Map logo clearly visable in the top left**
+   * **REVIEW - Colours provided by the client used consistently and extensively throughout website.**
+   2. Understand to purpose of the site.
+   * **REVIEW - Hero image gives clear indication this site is dedicated to exercise**
+   * **REVIEW - Hero text appears to user instantly and references the website as a training companion**
+   3. Simple intuitive navigation.
+   * **REVIEW - Clear navigation bar at the top of tha page**
+   * **REVIEW - Navigation bar reduces to hamburger icon for smaller screens to ensure information is presented clearly** 
+   * **REVIEW - Logo at the top left corner always redirects the user back to the home page.**
+   4. Easy access to external links provided on the website.
+   * **REVIEW - External links open on a click and open a seperate page**
+   * **REVIEW - Each link has an aria-label to detail what the link is and that it will open in a seperate tab**
+   5. Clear contact form and links to social media.
+   * **REVIEW - Social media links clearly detailed in the footer, which is set to a fixed position to always be visalble**
+   # * **REVIEW - Contact Form located on it's own page with clear lableing of inputs**
+   6. Receive gym location.
+   # * **REVIEW - Location provided in the form of Google maps at the bottom of the contact page**
+   7. Gain a basic understanding of the exercises demonstrated and how why they are used.
+   * **REVIEW - Each exercise detailed has an accompanying tutorial video to detail correct form and exercise benift**
+   8. Clear on all devices.
+   * **REVIEW - Media queries used to ensure each page is responsive to all devices**
 
 #### **Returning Visitor Goals**
-   1. As a Returning Visitor, I want to revisit social media platforms through the links provided.
-   * Social links are easy to find at the footer of the page, large icons are familiar and pleasant looking.
-   2. As a Returning Visitor,  I want to easily find a way to contact the band.
-   * Footer contains a contact section with contact email displayed.
-   * Bands Instagram and Twitter are two more convenient ways to get in touch less formally.
-
-#### **Frequent User Goals**
-   1. As a Frequent User, I want to sign up for the newsletter.
-   * User can easily see Get in Touch section at the navigation bar and click on it for a simple form containing email input, checkbox and a button to subscribe.
-   2. As a Frequent User, I want to check for updates at the gallery.
-   * User is one click away from the gallery, where new photos would be displayed at the very top.
+   1. Revisit to access instructional links.
+   2. Revisit to access social media links.
+   3. Revisit to create or update training plan.
+   4. Revisit to request personal training after being introduced to the fundamentals.
+   5. Revisit to locate gym.
 
 ## Further testing
 * The Website was tested on Google Chrome and Safari browsers.
@@ -178,7 +184,7 @@ NOTE: The structure and wireframes are only to act as a concept and are subject 
 * Friends and family members were asked to review the site and documentation to point out any bugs and/or user experience issues.
 
 ## Bugs
-* I was using column-count property to organise photos into two columns on the gallery page. However, when using media queries to organise photos into four columns for larger screen sizes, the column-count property was overridden by the original count of two. This was solved by adding !important rule.
+# * ADD
 
 # Deployment
 ## GitHub Pages
