@@ -1001,7 +1001,63 @@ table, th, td {
 /* ########## PAGE  ########## */
 
 .form-wrapper {
+    clear: left;
+    background: url('../images/contact/sam-moghadam-khamseh-vOZP2LojrHI-unsplash.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 900px;
+}
+
+.signup-form {
+    margin: 150px 10% 0 0;
+    border-radius: 1rem;
+    background: linear-gradient(to right bottom, rgba(255, 255, 255, 0.8), rgba(255, 255, 255, 0.4));
+    background-color: #FA7C07;
+    backdrop-filter: blur(2rem);
+    box-shadow: 8px 8px 12px #313030;
+    color: #004AAD;
+    font-weight: 500;
+    max-width: 400px;
+    position: absolute;
+    left: 10%;
+    padding: 30px;
+    
+}
+
+.signup-form > h2 {
+    color: #004AAD;
+    margin-bottom: 20px;
+}
+
+
+.text-input {
+    background: transparent;
+    color: #004AAD;
     width: 100%;
-    height: 300px;
-    background-color: red;
+    height: 20px;
+    margin: 5px 0 20px 0;
+    border: 1px solid #fafafa;
+    border-radius: 2px;
+
+}
+
+.text-input:hover {
+    border-color: #FA7C07;
+} 
+
+.submit-button {
+    margin-top: 20px;
+    border-radius: 2px;
+    padding: 15px 32px 15px 32px;
+    text-align: center;
+    font-size: 100%;
+    background-color: #FA7C07;
+    border: 1px solid #004AAD;
+    color: #fafafa;
+    display: block;
+}
+
+.submit-button:hover {
+    background-color: #fafafa;
+    color: #FA7C07;
 }

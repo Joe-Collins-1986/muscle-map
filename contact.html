@@ -45,7 +45,7 @@
     <main>
         <section class="form-wrapper">
             <form class="signup-form" action="form-submit.html" class="signup-form">
-                <h2>Let's get you signed up! <i class="fas fa-heartbeat"></i></h2>
+                <h2>Contact Us! <i class="fa-solid fa-dumbbell"></i></a></h2>
                 <label for="fname">First Name</label>
                 <input class="text-input" id="fname" name="first_name" type="text" required>
                 
@@ -54,15 +54,21 @@
                 
                 <label for="email">Email Address</label>
                 <input class="text-input" type="email" id="email" name="email_address" required>
+
+                <label for="height">Height (optional)</label>
+                <input class="text-input" type="text" id="height" name="height">
+
+                <label for="weight">Weight (optional)</label>
+                <input class="text-input" type="text" id="weight" name="weight">
                 
                 <label for="build-muscle">Build Muscle</label>
                 <input type="radio" id="road" name="goal" value="build-muscle" required>
-                <label for="trail">Lose-weight</label>
-                <input type="radio" id="trail" name="running_preference" value="trail" required>
-                <label for="both">Both</label>
-                <input type="radio" id="both" name="running_preference" value="both" required>
+                <label for="lose-weight">Lose Weight</label>
+                <input type="radio" id="trail" name="goal" value="lose-weight" required>
+                <label for="get healthy">Get Healthy</label>
+                <input type="radio" id="both" name="goal" value="get-healthy" required>
                 
-                <input class="join-button" type="submit" value="Let's Run!">
+                <input class="submit-button" type="submit" value="Let's Begin!">
             </form>
         </section>
 
