@@ -564,7 +564,21 @@ body {
     margin-top: 10px;
 }
 
-.compound-border-orange {
+.reference {
+    font-size: 80%;
+    font-style: italic;
+}
+
+.exercise-intro-border-orange h3, .exercise-intro-border-blue h3 {
+    font-size: 90%;
+} 
+
+.reference {
+    font-size: 80%;
+    font-style: italic;
+}
+
+.compound-border-orange  {
     width: 50%;
     padding: 0;
     margin-right: 5px;
