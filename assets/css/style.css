@@ -564,6 +564,16 @@ body {
     margin-top: 10px;
 }
 
+.exercises-section a { 
+    text-decoration: none;
+    color: #004AAD;
+    font-size: 120%;
+}
+
+.larger-text{
+    font-size: 120%;
+}
+
 .reference {
     font-size: 80%;
     font-style: italic;
@@ -571,11 +581,6 @@ body {
 
 .exercise-intro-border-orange h3, .exercise-intro-border-blue h3 {
     font-size: 90%;
-} 
-
-.reference {
-    font-size: 80%;
-    font-style: italic;
 }
 
 .compound-border-orange  {
@@ -619,12 +624,6 @@ body {
     font-size: 130%;
     width: 200px;
     margin: 0 0 15px 0;
-}
-
-.exercise-instruction-container-blue-text a {
-    text-align: center;
-    font-size: 120%;
-    color: #004AAD;
 }
 
 .exercise-instruction-container-blue-text a:hover {
@@ -676,6 +675,7 @@ body {
 
 .exercise-block a {
     text-decoration: none;
+    font-size: 120%;
     line-height: 150%;
 }
 
