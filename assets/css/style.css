@@ -1115,5 +1115,24 @@ table, th, td {
         background: url('../images/contact/contact-mobile-reduced.jpg');
         background-repeat: no-repeat;
         height: 800px;
+
     }
+}
+
+.title-wrapper {
+    display: flex;
+    justify-content: center;
+    font-size: 120%;
+    font-family: 'Roboto Slab', serif;
+    font-size: 120%;
+    color: #004AAD;
+}
+
+.title-wrapper h1 {
+    width: 80%;
+    text-align: center;
+}
+
+.form-wrapper {
+    margin: 0;
 }
