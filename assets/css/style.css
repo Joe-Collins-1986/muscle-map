@@ -1002,7 +1002,7 @@ table, th, td {
 
 .form-wrapper {
     clear: left;
-    background: url('../images/contact/sam-moghadam-khamseh-vOZP2LojrHI-unsplash.jpg');
+    background: url('../images/contact/contact-reduced.jpg');
     background-size: cover;
     background-position: center;
     height: 900px;
@@ -1060,4 +1060,13 @@ table, th, td {
 .submit-button:hover {
     background-color: #fafafa;
     color: #FA7C07;
+}
+
+@media only screen and (max-width: 550px) {
+
+    .form-wrapper {
+        background: url('../images/contact/contact-mobile-reduced.jpg');
+        background-repeat: no-repeat;
+        height: 800px;
+    }
 }
