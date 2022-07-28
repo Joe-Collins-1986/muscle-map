@@ -889,7 +889,7 @@ body {
     }
 }
 
-@media only screen and (max-width: 550px) {
+@media only screen and (max-width: 450px) {
 
     .plan-title {
         height: 2.5rem;
@@ -996,6 +996,19 @@ table, th, td {
     }
 }
 
+    @media only screen and (max-width: 1250px) {
+
+    .cards {
+        font-size: 100%;
+    }
+}
+
+@media only screen and (max-width: 400px) {
+
+    .cards {
+        font-size: 80%;
+    }
+}
 
 /* ########## CONTACT ########## */
 /* ########## PAGE  ########## */
