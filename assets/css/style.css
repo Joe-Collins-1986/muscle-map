@@ -52,7 +52,6 @@ body {
     color: #FA7C07;
     border-bottom: 3px solid #FA7C07;
     font-weight: 700;
-    
 }
 
 .hamburger-menu {
@@ -65,7 +64,7 @@ body {
     width: 40px;
     height: 26px;
 }
-.hamburger-menu .bar {
+.bar {
     height: 4px;
     width: 100%;
     background-color: #004AAD;
@@ -89,10 +88,6 @@ body {
         align-items: flex-start;
     }
 
-    .logo {
-        align-items: flex-start;
-    }
-
     .navbar-links ul {
         width: 100%;
         flex-direction: column;
@@ -111,7 +106,6 @@ body {
     }
 
     .navbar-links li a:hover {
-        width: 100%;
         margin: 0;
         background-color: #FA7C07;
         color: #004AAD;
@@ -128,7 +122,6 @@ body {
     height: 100%;
     width: 100%;
     overflow: hidden;
-
     position: absolute;
     top: 50px;
     z-index: -1;
@@ -166,7 +159,6 @@ body {
         height: 100%;
         width: 100%;
     }
-
 }
 
 /* ########## INDEX ########## */
@@ -177,7 +169,6 @@ body {
 #home-content-container {
     top: 200px;
     position: absolute;
-
     width: 100%;
     height: 350px;
 }
@@ -188,19 +179,14 @@ body {
     text-transform: capitalize;
     letter-spacing: 3px;
     color: #F5F5F5;
-
     width: 300px;
     height: 200px;
-
     display: flex;
-    justify-content: center;
+    align-items: center;
     padding-left: 15px;
-
     background-color: rgba(73, 73, 73, 0.95);
-
     margin: 0 0 0 50px;
 }
-
 
 .training-text {
     color: #FA7C07;
@@ -216,18 +202,13 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-
     width: 300px;
     height: 60px;
     border-radius: 10px;
     border: .5px solid white;
-
     padding: 10px 5px;
-
     background-color: #FA7C07;
-
     margin: 20px 0 0 50px;
-
 }
 
 .call-to-action:hover {
@@ -259,13 +240,10 @@ body {
         font-family: 'Roboto Slab', serif;
         text-transform: capitalize;
         letter-spacing: 2px;
-
         width: 300px;
         height: 140px;
-
         margin: 0;
         padding: 0;
-
         align-items: center;
         text-align: center;
     }
@@ -275,10 +253,8 @@ body {
     }
 
     .call-to-action {
-
         margin-left: 0
     }
-
 }
 
 /* footer */
@@ -337,8 +313,6 @@ body {
     }
 }
 
-
-
 /* ########## EXERCISES ########## */
 /* ############ PAGES ############ */
 
@@ -368,46 +342,37 @@ body {
     left: 5rem;
 }
 
-.exercises-section {
-    margin: 40px 0 0 0;
-    width: 100%;
-
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-
-/* set up img container specific to each image requirement */
-
-/* ............................................ */
-
-.chest-img-container, .abs-img-container, .shoulders-img-container {
+.chest-img-container, .abs-img-container, .shoulders-img-container, .back-img-container, .legs-img-container {
     width: 60%;
     height: 370px;
     overflow: hidden;
-    border: 3px solid #FA7C07;
     border-radius: 10px;
+}
+
+.chest-img-container, .abs-img-container, .shoulders-img-container {
+    border: 3px solid #FA7C07;
 }
 
 .back-img-container, .legs-img-container {
-    width: 60%;
-    height: 370px;
-    overflow: hidden;
     border: 3px solid #004AAD;
-    border-radius: 10px;
 }
 
-.chest-img-container img {
+.chest-img-container img, .abs-img-container img, .shoulders-img-container img, .back-img-container img, .legs-img-container img {
     width: 100%;
 }
 
 .abs-img-container img, .shoulders-img-container img, .back-img-container img, .legs-img-container img {
-    width: 100%;
     height: 370px;
     object-fit: cover;
 }
 
-/* ............................................ */
+.exercises-section {
+    margin: 40px 0 0 0;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
 
 .exercise-header-outer, .exercise-header-outer-org-background {
     width: 40%;
@@ -420,7 +385,6 @@ body {
     width: 80%;
     display: flex;
     justify-content: center;
-    align-items: center;
     text-align: center;
 }
 
@@ -429,7 +393,6 @@ body {
     font-family: 'Roboto Slab', serif;
     font-size: 500%;
     color: #F5F5F5;
-
 }
 
 .header-colored-word-orange {
@@ -440,7 +403,7 @@ body {
     color: #004AAD;
 }
 
-/* exercise section - responsive max-width 1100px */
+/* exercise top section - responsive max-width 1100px */
 
 @media only screen and (max-width: 1100px) {
    
@@ -459,37 +422,30 @@ body {
         width: 90%;
     }
 
-    .exercise-header-outer {
+    .exercise-header-outer, .exercise-header-outer-org-background {
         width: 88%;
         height: 4rem;
         position: absolute;
         top: 300px;
-        background-color: rgba(73, 73, 73, 0.95);
         border-radius: 7px;
     }
 
+    .exercise-header-outer {
+        background-color: rgba(73, 73, 73, 0.95);
+    }
+
     .exercise-header-outer-org-background {
-        width: 88%;
-        height: 4rem;
-        position: absolute;
-        top: 300px;
         background-color: #004AAD;
-        border-radius: 7px;
     }
 
     .exercise-header {
         width: 100%;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        text-align: center;
     }
 
     .exercise-header h1 {
         font-size: 350%;
         margin: 0;
     }
-
 }
 
 /* exercise top section - responsive max-width 750px */
@@ -510,12 +466,7 @@ body {
         z-index: -1;
     }
 
-    .exercise-header-outer {
-        height: 2.5rem;
-        top: 179px;
-    }
-
-    .exercise-header-outer-org-background {
+    .exercise-header-outer, .exercise-header-outer-org-background {
         height: 2.5rem;
         top: 179px;
     }
@@ -523,7 +474,6 @@ body {
     .exercise-header h1 {
         font-size: 170%;
     }
-
 }
 
 @media only screen and (max-width: 550px) {
@@ -533,27 +483,25 @@ body {
     }
 
     .shoulders-img-container img {
-        display: flex;
         object-position: -100px -50px;
     }
 }
 
 /* exercise table content */
 
-.exercise-intro-border-orange {
+.exercise-intro-border-orange, .exercise-intro-border-blue {
     width: 90%;
     padding: 0 15px;
     background-color: #F5F5F5;
-    border: 3px solid #FA7C07;
     color: #004AAD;
 }
 
+.exercise-intro-border-orange {
+    border: 3px solid #FA7C07;
+}
+
 .exercise-intro-border-blue {
-    width: 90%;
-    padding: 0 15px;
-    background-color: #F5F5F5;
     border: 3px solid #004AAD;
-    color: #004AAD;
 }
 
 .exercise-instruction-container-blue-text {
@@ -565,10 +513,9 @@ body {
 .exercises-section a { 
     text-decoration: none;
     color: #004AAD;
-    font-size: 120%;
 }
 
-.larger-text{
+.larger-text, .exercises-section a{
     font-size: 120%;
 }
 
@@ -581,40 +528,36 @@ body {
     font-size: 90%;
 }
 
-.compound-border-orange  {
+.compound-border-orange, .compound-border-blue  {
     width: 50%;
     padding: 0;
     margin-right: 5px;
     background-color: #F5F5F5;
-    border: 3px solid #FA7C07;
     color: #004AAD;
 }
 
+.compound-border-orange  {
+    border: 3px solid #FA7C07;
+}
+
 .compound-border-blue {
-    width: 50%;
-    padding: 0;
-    margin-right: 5px;
-    background-color: #F5F5F5;
     border: 3px solid #004AAD;
+}
+
+.isolation-border-orange, .isolation-border-blue {
+    width: 50%;
+    margin-left: 5px;
+    padding: 0;
+    background-color: #F5F5F5;
     color: #004AAD;
 }
 
 .isolation-border-orange {
-    width: 50%;
-    margin-left: 5px;
-    padding: 0;
-    background-color: #F5F5F5;
     border: 3px solid #FA7C07;
-    color: #004AAD;
 }
 
 .isolation-border-blue {
-    width: 50%;
-    margin-left: 5px;
-    padding: 0;
-    background-color: #F5F5F5;
     border: 3px solid #004AAD;
-    color: #004AAD;
 }
 
 .exercise-instruction-container-blue-text h3 {
@@ -628,37 +571,21 @@ body {
     color: #FA7C07;
 }
 
-.comp-iso-diff {
+.header-block-border-orange, .header-block-border-blue {
+    width: 100%;
+    margin: 0;
+    padding: 10px 5px;   
     display: flex;
-    justify-content: center;
+    flex-direction: column;
+    align-items: center;
 }
 
 .header-block-border-orange {
     border-bottom: 3px solid #FA7C07;
-    width: 100%;
-    margin: 0;
-    padding: 10px 5px;
-    
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-
 }
 
 .header-block-border-blue {
     border-bottom: 3px solid #004AAD;
-    width: 100%;
-    margin: 0;
-    padding: 10px 5px;
-    
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-
 }
 
 .exercise-block p {
@@ -681,12 +608,13 @@ body {
 
 @media only screen and (max-width: 750px) {
     
-    
     .exercise-instruction-container-blue-text {
+
         flex-direction: column;
     }
 
     .compound-border-orange, .compound-border-blue {
+
         width: 100%;
         margin: 0 0 10px 0;
     }
@@ -702,50 +630,33 @@ body {
 /* call to action for exercise pages */
 
 .cta-container {
-
     margin-top: 20px;
     width: 100%;
     height: 60px;
     display: flex;
     justify-content: center;
     align-items: center;
+}
 
+.cta-exercise-pages-orange, .cta-exercise-pages-blue {
+    font-size: 180%;
+    font-family: Arial, Helvetica, sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    display: flex;
+    align-items: center;
+    width: 300px;
+    height: 60px;
+    border-radius: 10px;
+    border: .5px solid white;
 }
 
 .cta-exercise-pages-orange {
-    font-size: 180%;
-    font-family: Arial, Helvetica, sans-serif;
-    text-transform: uppercase;
-    letter-spacing: 2px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-
-    width: 300px;
-    height: 60px;
-    border-radius: 10px;
-    border: .5px solid white;
-
     background-color: #FA7C07;
-
 }
 
 .cta-exercise-pages-blue {
-    font-size: 180%;
-    font-family: Arial, Helvetica, sans-serif;
-    text-transform: uppercase;
-    letter-spacing: 2px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-
-    width: 300px;
-    height: 60px;
-    border-radius: 10px;
-    border: .5px solid white;
-
     background-color: #004AAD;
-
 }
 
 .cta-exercise-pages-orange a, .cta-exercise-pages-blue a {
@@ -755,7 +666,6 @@ body {
     color: white;
     font-weight: 900;
     text-shadow: -1px 0 #004AAD, 0 1px #004AAD, 1px 0 #004AAD, 0 -1px #004AAD;
-
     display: flex;
     justify-content: center;
     align-items: center;
@@ -788,12 +698,11 @@ body {
 }
 
 @media only screen and (max-width: 500px) {
-    
+
     .footer-spacing {
         height: 90px;    
     }
 }
-
 
 /* ########## PLAN ########## */
 /* ########## PAGE ########## */
@@ -841,13 +750,11 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
-    text-align: center;
     font-size: 500%;
     color: white;
     background-color: rgba(73, 73, 73, 0.95);
     border-radius: 7px;
     border: 3px solid #FA7C07;
-
     position: relative;
     top: 1rem;
 }
@@ -915,7 +822,6 @@ body {
 .cards-container {
     display: flex;
     justify-content: space-evenly;
-
 }
 
 .cards {
@@ -979,8 +885,6 @@ table {
 }
 
 th, td {
-    text-align: center;
-    border: 1px solid #FA7C07;
     background-color: #F5F5F5;
 }
 
@@ -1007,7 +911,6 @@ table, th, td {
         font-size: 100%;
     }
 }
-
 
 @media only screen and (max-width: 400px) {
 
@@ -1059,8 +962,7 @@ table, th, td {
     max-width: 400px;
     position: absolute;
     left: 10%;
-    padding: 30px;
-    
+    padding: 30px; 
 }
 
 .signup-form > h2 {
@@ -1077,7 +979,6 @@ table, th, td {
     margin: 5px 0 20px 0;
     border: 1px solid #fafafa;
     border-radius: 2px;
-
 }
 
 .text-input:hover {
@@ -1107,7 +1008,6 @@ table, th, td {
         background: url('../images/contact/contact-mobile-reduced.jpg');
         background-repeat: no-repeat;
         height: 800px;
-
     }
 }
 
@@ -1132,7 +1032,6 @@ table, th, td {
 .radio-reduce {
     display: flex;
     flex-direction: row;
-
 }
 
 .google-map {
