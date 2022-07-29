@@ -1,9 +1,9 @@
 # Muscle Map Website
 [View the live project here.](https://joe-collins-1986.github.io/muscle-map/)
 
-(**Note:** this is a fictitious client generated for the purpose of developing this project to test my HTML and CSS essentials)
+(**Note:** this is a fictitious client generated for the purpose of developing this project to test my HTML and CSS essentials.)
 
-This website has been designed to provide users with a high-level overview of which exercises can be used use to train specific muscle groups. They will then be able to use these exercises to create a workout plan targeted to their number of available training days.
+This website has been designed to provide users with a high-level overview of which exercises can be used to train specific muscle groups. They will then be able to use these exercises to create a workout plan targeted to their number of available training days.
 
 # Responsive Review
 ![Responsive Review](assets/readme-assets/1.responsive/home.png)
@@ -17,18 +17,18 @@ This website has been designed to provide users with a high-level overview of wh
 - [Abs](assets/readme-assets/1.responsive/abs.png)
 - [Plan](assets/readme-assets/1.responsive/plan.png)
 
-# User Experience (UX)
-## User stories
+# User Experience (UX)Í
+## Website Objectives
 
    #### **Client Goals**
    The client is a personal trainer and gym owner.
    1. Develop brand recognition for his logo and brand colours.
    2. Set up a website to generate traffic which will:
-      - <span style="color:red">drive additional gym attendance.</span>
-      - <span style="color:red">provide a contact for his personal training.</span>
-   3. Engage with new and first-time gym-goers by providing a simple breakdown of which exercises target each muscle and break. 
-   4. Engage with new and first-time gym-goers by providing breaking down the difference between compound exercises and isolation exercises with a link to further reading.
-   5. Link exercises to YouTube instruction videos. (This will later be replaced with videos the client will generate personally.
+      - drive additional gym attendance.
+      - provide a contact for his personal training.
+   3. Engage with new and first-time gym-goers by providing a simple breakdown of which exercises target each muscle. 
+   4. Engage with new and first-time gym-goers by providing a breakdown of the differences between compound exercises and isolation exercises with a link to further reading.
+   5. Link exercises to YouTube instruction videos. (This will later be replaced with videos the client will generate personally.)
    
    #### **Client Future Goals**
    Wishes which will later be developed to incorporate:
@@ -36,26 +36,27 @@ This website has been designed to provide users with a high-level overview of wh
    - Advertisement opportunities.
    - Building a sales platform to connect personal trainers to client’s dependant on specialisation.
 
-   #### **First time visitor goals**
+   #### **First-Time Visitor Goals**
    1. Acknowledge clear and memorable branding.
-   2. Understand to purpose of the site.
+   2. Understand the purpose of the site.
    3. Simple intuitive navigation.
    4. Easy access to external links provided on the website.
-   5. <span style="color:red">Clear contact form and links to social media.</span>
-   6. <span style="color:red">Receive gym location.</span>
-   7. Gain a basic understanding of the exercises demonstrated and how why they are used.
-   8. Clear on all devices.
+   5. Intuative contact form and links to social media.
+   6. Receive gym location.
+   7. Gain a basic understanding of the exercises demonstrated and how and why they are used.
+   8. Readable and asthetically pleasing on all devices.
+   9. Be able to create a basic training plan.
 
    #### **Returning Visitor Goals**
    1. Revisit to access instructional links.
    2. Revisit to access social media links.
    3. Revisit to create or update training plan.
-   4. <span style="color:red">Revisit to request personal training after being introduced to the fundamentals.</span>
-   5. <span style="color:red">Revisit to locate gym.</span>
+   4. Revisit to request personal training after being introduced to the fundamentals.
+   5. Revisit to locate gym.
 
 ## Design
 
-  #### **Colour scheme**
+  #### **Colour Scheme**
   Provided by client to match logo.
    - Main colours: 
       - #FA7C07 (Orange)
@@ -63,7 +64,7 @@ This website has been designed to provide users with a high-level overview of wh
 
    - Colours use to offset text:
       - #F5F5F5 (Off-White)
-      - #494949f2 (grey with slight opacity) 
+      - #494949f2 (Grey with Slight Opacity) 
 
   #### **Typography**
   - Header Titles -'Roboto Slab', serif
@@ -77,6 +78,7 @@ This website has been designed to provide users with a high-level overview of wh
    - Dynamic
    - Pair well with branding colour
    - Appropriate orientation for the space
+   - Appropriate to page content
 
 ## Structure Non-Linear Plane
 ![Structure Non-Linear Plane](assets/readme-assets/2.UX/Structure-non-linear.png)
@@ -90,10 +92,11 @@ This website has been designed to provide users with a high-level overview of wh
 
 ## Features
 ![Feature Mind Map](assets/readme-assets/2.UX/Features.png)
+The above provides an inital mind map into what features might be appropriate for the website given the clients specifications.
 
-# Further development
+# Further Development
 * Add automation of exercise plan based of information entered by visitor.
-* Add E-commerce for sale of muscle map merchandise.
+* Add E-commerce for sale of Muscle Map merchandise.
 
 # Technologies Used
 ## Languages Used
@@ -113,10 +116,10 @@ This website has been designed to provide users with a high-level overview of wh
 6. Figma:
 - Used to plan out website format.
 7. Web Developer:
-- Used to analyse html and CSS output and correct where required.
+- Used to analyse HTML and CSS output and correct where required.
 
 # Testing
- ## HTML validator results: 
+ ## HTML Validator Results: 
    - [Home](#)
    - [Chest](#)
    - [Back](#)
@@ -124,10 +127,11 @@ This website has been designed to provide users with a high-level overview of wh
    - [Legs](#)
    - [Abs](#)
    - [Plan](#)
- ## CSS validator results
+
+ ## CSS Validator Results
    -[CSS validator results](#)
 
- ## Lighthouse accessibility results:
+ ## Lighthouse Accessibility Results:
    -[Lighthouse accessibility results](#)
 
 ## Testing User Stories from User Experience (UX) Section
@@ -136,59 +140,73 @@ This website has been designed to provide users with a high-level overview of wh
    * **REVIEW - Colours provided by the client used consistently and extensively throughout website.**
    2. Set up a website to generate traffic which will:
       - drive additional gym attendance.
-      * <span style="color:red">REVIEW - Provides location of the gym to drive traffic.</span>
+      * **REVIEW - Provides location of the gym to drive traffic.**
       - provide a contact for his personal training.
-      * <span style="color:red">REVIEW - Provides form to contact personal trainer (only managing front end requirements).</span>
-   3. Engage with new and first-time gym-goers by providing a simple breakdown of which exercises target each muscle and break. 
-   * **REVIEW - Each muscle slit onto its own page with a clear breakdown of exercises to target it**
-   4. Engage with new and first-time gym-goers by providing breaking down the difference between compound exercises and isolation exercises with a link to further reading.
-   * **REVIEW - Link to external source explaining the difference. Used external website section ID to direct user to relevant paragraph**
+      * **REVIEW - Provides form to contact personal trainer (only managing front end requirements).**
+   3. Engage with new and first-time gym-goers by providing a simple breakdown of which exercises target each muscle. 
+   * **REVIEW - Each muscle split into its own page with a clear breakdown of exercises to target it.**
+   4. Engage with new and first-time gym-goers by providing a breakdown of the differences between compound exercises and isolation exercises with a link to further reading.
+   * **REVIEW - Link to external source explaining the differences. Used external website section ID to direct user to relevant paragraph.**
    5. Link exercises to YouTube instruction videos. (This will later be replaced with videos the client will generate personally.
-   * **REVIEW - Links to YouTube set up for each exercise. Client specified which YouTuber they wished to reference**
+   * **REVIEW - Links to YouTube set up for each exercise. Client specified which YouTuber they wished to reference.**
 
-#### **First time visitor goals**
+#### **First-Time Visitor Goals**
    1. Acknowledge clear and memorable branding.
-   * **REVIEW - Muscle Map logo clearly visable in the top left**
+   * **REVIEW - Muscle Map logo clearly visable in the top left.**
    * **REVIEW - Colours provided by the client used consistently and extensively throughout website.**
-   2. Understand to purpose of the site.
-   * **REVIEW - Hero image gives clear indication this site is dedicated to exercise**
-   * **REVIEW - Hero text appears to user instantly and references the website as a training companion**
+   2. Understand the purpose of the site.
+   * **REVIEW - Hero image gives clear indication this site is dedicated to exercise.**
+   * **REVIEW - Hero text appears to user instantly and references the website as a training companion.**
    3. Simple intuitive navigation.
-   * **REVIEW - Clear navigation bar at the top of the page**
-   * **REVIEW - Navigation bar reduces to hamburger icon for smaller screens to ensure information is presented clearly** 
+   * **REVIEW - Clear navigation bar at the top of the page.**
+   * **REVIEW - Navigation bar reduces to hamburger icon for smaller screens to ensure information is presented clearly.** 
    * **REVIEW - Logo at the top left corner always redirects the user back to the home page.**
    4. Easy access to external links provided on the website.
-   * **REVIEW - External links open on a click and open a separate page**
-   * **REVIEW - Each link has an aria-label to detail what the link is and that it will open in a separate tab**
-   5. Clear contact form and links to social media.
-   * **REVIEW - Social media links clearly detailed in the footer, which is set to a fixed position to always be visible**
-   * <span style="color:red">REVIEW - Contact Form located on its own page with clear labelling of inputs.</span>
+   * **REVIEW - External links open on a click and open a separate page.**
+   * **REVIEW - Each link has an aria-label to detail what the link is and that it will open in a separate tab.**
+   5. Intuative  contact form and links to social media.
+   * **REVIEW - Social media links clearly detailed in the footer, which is set to a fixed position to always be visible.**
+   * **REVIEW - Contact Form located on its own page with clear labelling of inputs.**
    6. Receive gym location.
-   * <span style="color:red">REVIEW - Location provided in the form of Google maps at the bottom of the contact page.</span>
-   7. Gain a basic understanding of the exercises demonstrated and how why they are used.
-   * **REVIEW - Each exercise detailed has an accompanying tutorial video to detail correct form and exercise benefit**
-   8. Clear on all devices.
-   * **REVIEW - Media queries used to ensure each page is responsive to all devices**
+   * **REVIEW - Location provided in the form of Google Maps at the bottom of the contact page.**
+   7. Gain a basic understanding of the exercises demonstrated and how and why they are used.
+   * **REVIEW - Each exercise detailed has an accompanying tutorial video to detail correct form and exercise benefit.**
+   8. Readable and asthetically pleasing on all devices.
+   * **REVIEW - Media queries used to ensure each page is responsive to all devices.**
 
 #### **Returning Visitor Goals**
    1. Revisit to access instructional links.
    * **REVIEW - Links provide a useful repository for users to keep them comming back to the site**
    2. Revisit to access social media links.
-   * **REVIEW - Opportunity for users to come back to locate the social madia links**
+   * **REVIEW - Opportunity for users to come back to locate the social media links**
    3. Revisit to create or update training plan.
    * **REVIEW - Plan is set up in a way to be re-usable to encourage users to return**
    4. Revisit to request personal training after being introduced to the fundamentals.
-   * <span style="color:red">REVIEW - After getting what they can from the website and building a foundation the website encourages users to develop by contacting a personal trainer.</span>
+   * **REVIEW - After getting what they can from the website and building a foundation, the website encourages users to continue their development by contacting a personal trainer.**
    5. Revisit to locate gym.
-   * <span style="color:red">REVIEW - Gym location is detailed as part of the contact page.</span>
+   * **REVIEW - Gym location is detailed as part of the contact page.**
 
-## Further testing
+## Further Testing
 * Tested across Google Chrome and Safari browsers.
-* Viewed on a variety of devices using web Developer Tools as well as several live desktop, iPad and mobile devices. 
+* Viewed on a variety of devices using Web Developer Tools as well as several live desktop, iPad and mobile devices. 
 * Each page tested by developer and friends to ensure functionality worked as expected.
 
 ## Bugs
-  * <span style="color:red">ADD BUGS AND REOLUTIONS</span>
+  * Navigation bar had too much content to display neatly.
+  - Resolved by utilising a youtube tutorial on how to create and add JavaScript to create a hamburger menu for small screens.
+  * Wanted the hero image on the home page not to be pushed down by the hamburger menu.
+  - Resolved by setting the hero image and hero text to absolute values and moving the hero image back on the z-axis.
+  * On publication to Git Pages the internal links did not work.
+  - Resolved by setting them to relative paths and also removing the / from the front of the path.
+  * After fixing the position of the footer I found that the content would disappear underneath it.
+  - Resolved issue by producing a spacing div at the bottom of each page equal to the size of the footer ensuring the page moved down and essential content remained visable.
+  * Had issue with re-using IDs.
+  - Converted IDs to classes to be able to re-utilise accross pages for efficiency.
+  * Images downloaded from Unsplash were very large and caused issues with the performance of the page when I used Lighthouse to evaluate them.
+  - Reduced image sizes on each page to improve performance.
+
+## Key Learn
+On following projects I will look to be more efficient in my use of CSS. In this project I styled each element as I needed them which caused a lot of duplication and redundant code. By defining the key classes and body formats I need across the entire project up front I will be able to optimise my code.
 
 # Deployment
 ## GitHub Pages
@@ -206,6 +224,11 @@ Deployed to GitHub Pages within the settings on my GitHub Repository.
 * Links to external websites
    - https://8fit.com/fitness/compound-vs-isolation-exercises-benefits-and-differences/#what-are-isolation-exercises
    - https://www.verywellfit.com/abdominal-muscles-anatomy-3120072#mntl-sc-block_1-0-6
+   - https://en.wikipedia.org/
+* Excerpts from external links  
+   - https://www.verywellhealth.com/
+   - https://my.clevelandclinic.org/
+
 
 
 ## Acknowledgements

@@ -445,9 +445,7 @@ body {
 @media only screen and (max-width: 1100px) {
    
     .exercise-top, .exercise-top-right {
-        display: flex;
         flex-direction: column;
-        justify-content: center;
         align-items: center;
         margin-top: 10px;
         left: 0;
