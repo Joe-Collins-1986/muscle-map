@@ -45,7 +45,7 @@
     <main>
         <section class="form-wrapper">Í
             <form class="signup-form" action="form-submit.html" class="signup-form">
-                <h2>Contact Us! <i class="fa-solid fa-dumbbell"></i></a></h2>
+                <h2><i class="fa-solid fa-dumbbell"></i> Contact Us! <i class="fa-solid fa-dumbbell"></i></a></h2>
                 <label for="fname">First Name</label>
                 <input class="text-input" id="fname" name="first_name" type="text" required>
                 
@@ -60,13 +60,21 @@
 
                 <label for="weight">Weight (optional)</label>
                 <input class="text-input" type="text" id="weight" name="weight">
-                
-                <label for="build-muscle">Build Muscle</label>
-                <input type="radio" id="build-muscle" name="goal" value="build-muscle" required>
-                <label for="lose-weight">Lose Weight</label>
-                <input type="radio" id="lose-weight" name="goal" value="lose-weight" required>
-                <label for="get healthy">Get Healthy</label>
-                <input type="radio" id="get healthy" name="goal" value="get-healthy" required>
+
+                <div class="radio-reduce">
+                    <div>
+                        <label for="build-muscle">Build Muscle</label>
+                        <input type="radio" id="build-muscle" name="goal" value="build-muscle" required>
+                    </div>
+                    <div>
+                        <label for="lose-weight">Lose Weight</label>
+                        <input type="radio" id="lose-weight" name="goal" value="lose-weight" required>
+                    </div>
+                    <div>
+                        <label for="get healthy">Get Healthy</label>
+                        <input type="radio" id="get healthy" name="goal" value="get-healthy" required>
+                    </div>
+                </div>
                 
                 <input class="submit-button" type="submit" value="Let's Begin!">
             </form>
