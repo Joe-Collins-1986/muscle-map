@@ -1136,3 +1136,10 @@ table, th, td {
 .form-wrapper {
     margin: 0;
 }
+
+/* ####### SUBMIT FORM ####### */
+/* ########## PAGE  ########## */
+
+.submit-page {
+    margin: 0 2rem;
+}
