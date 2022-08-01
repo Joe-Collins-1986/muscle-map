@@ -10,13 +10,13 @@ This website has been designed to provide users with a high-level overview of wh
 
 ## Responsive review of all website pages:
 - [Home](https://ui.dev/amiresponsive?url=https://joe-collins-1986.github.io/muscle-map/index.html)
-- [Chest](#)
-- [Back](#)
-- [Shoulders](#)
-- [Legs](#)
-- [Abs](#)
-- [Plan](#)
-- [Contact](#)
+- [Chest](https://ui.dev/amiresponsive?url=https://joe-collins-1986.github.io/muscle-map/chest.html)
+- [Back](https://ui.dev/amiresponsive?url=https://joe-collins-1986.github.io/muscle-map/back.html)
+- [Shoulders](https://ui.dev/amiresponsive?url=https://joe-collins-1986.github.io/muscle-map/shoulders.html)
+- [Legs](https://ui.dev/amiresponsive?url=https://joe-collins-1986.github.io/muscle-map/legs.html)
+- [Abs](https://ui.dev/amiresponsive?url=https://joe-collins-1986.github.io/muscle-map/abs.html)
+- [Plan](https://ui.dev/amiresponsive?url=https://joe-collins-1986.github.io/muscle-map/plan.html)
+- [Contact](https://ui.dev/amiresponsive?url=https://joe-collins-1986.github.io/muscle-map/contact.html)
 
 # User Experience (UX)
 ## Website Objectives
