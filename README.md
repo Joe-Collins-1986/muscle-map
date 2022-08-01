@@ -131,10 +131,19 @@ The above provides an inital mind map into what features might be appropriate fo
    - [Contact](https://validator.w3.org/nu/?doc=https%3A%2F%2Fjoe-collins-1986.github.io%2Fmuscle-map%2Fcontact.html)
 
  ## CSS Validator Results
-   -[CSS validator results](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fjoe-collins-1986.github.io%2Fmuscle-map%2F&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en)
+   - [CSS validator results](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fjoe-collins-1986.github.io%2Fmuscle-map%2F&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en)
 
  ## Lighthouse Accessibility Results:
-   -[Lighthouse accessibility results](#)
+![Accessibility Review](assets/readme-assets/3.testing/home.png)
+
+   - [Home](assets/readme-assets/3.testing/home-sum.png)
+   - [Chest](assets/readme-assets/3.testing/chest-sum.png)
+   - [Back](assets/readme-assets/3.testing/back-sum.png)
+   - [Shoulders](assets/readme-assets/3.testing/shoulders-sum.png)
+   - [Legs](assets/readme-assets/3.testing/legs-abs.png)
+   - [Abs](assets/readme-assets/3.testing/abs-sum.png)
+   - [Plan](assets/readme-assets/3.testing/plan-sum.png)
+   - [Contact](assets/readme-assets/3.testing/contact-sum.png)
 
 ## Testing User Stories from User Experience (UX) Section
 #### **Client Goals**
