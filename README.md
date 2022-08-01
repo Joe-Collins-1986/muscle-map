@@ -193,7 +193,7 @@ The above provides an inital mind map into what features might be appropriate fo
 
 ## Bugs
   * Navigation bar had too much content to display neatly.
-      - Resolved by utilising a youtube tutorial on how to create and add JavaScript to create a hamburger menu for small screens.
+      - Resolved by utilising a YouTube tutorial on how to create and add JavaScript to create a hamburger menu for small screens.
   * Wanted the hero image on the home page not to be pushed down by the hamburger menu.
       - Resolved by setting the hero image and hero text to absolute values and moving the hero image back on the z-axis.
   * On publication to Git Pages the internal links did not work.
@@ -209,6 +209,7 @@ The above provides an inital mind map into what features might be appropriate fo
 * On following projects I will look to be more efficient in my use of CSS. In this project I styled each element as I needed them which caused a lot of duplication and redundant code. By defining the key classes and body formats I need across the entire project up front I will be able to optimise my code.
 * In future projects I will aim to move away form the heavy use of pixels and instead primarily utilise rem (and in some specific circumstances em). This will provide more control over responsive design.
 * In this project I developed media queries as and when i required them. As a result, I built them directly into the body of the CSS code alongside the elements they impacted. My Mentor advised that it would be best practice to consolidate these at the end of the CSS page. This would reduce line requirements by placing all media queries within a singular max-width media query appropriate to them. However due to the way I built and structured this project it would make the code difficult to read and locate so I have opted to leave this project as is for the sake of clarity but apply a more structured approach to my next project.
+* On the Plan page I made the cards responsive by converting from flex direction rows to coloumns and updating the margins so it showed correctly on a smaller screen. This was done as originally I hade 3 cards when I built the funcionality, however had I know at the point of build that I would only use 2 cards I would have used flex-grow and flex wrap instead for a more concise and efficieciant code. This was not an appropriate option for more that 2 cards as it would have shown them with varied widths when pushed onto the lext line.
 
 # Deployment
 ## GitHub Pages
