@@ -176,11 +176,11 @@ The above provides an inital mind map into what features might be appropriate fo
 
 #### **Returning Visitor Goals**
    1. Revisit to access instructional links.
-      * **REVIEW - Links provide a useful repository for users to keep them comming back to the site**
+      * **REVIEW - Links provide a useful repository for users to keep them comming back to the site.**
    2. Revisit to access social media links.
-      * **REVIEW - Opportunity for users to come back to locate the social media links**
+      * **REVIEW - Opportunity for users to come back to locate the social media links.**
    3. Revisit to create or update training plan.
-      * **REVIEW - Plan is set up in a way to be re-usable to encourage users to return**
+      * **REVIEW - Plan is set up in a way to be re-usable to encourage users to return.**
    4. Revisit to request personal training after being introduced to the fundamentals.
       * **REVIEW - After getting what they can from the website and building a foundation, the website encourages users to continue their development by contacting a personal trainer.**
    5. Revisit to locate gym.
@@ -205,7 +205,7 @@ The above provides an inital mind map into what features might be appropriate fo
   * Images downloaded from Unsplash were very large and caused issues with the performance of the page when I used Lighthouse to evaluate them.
       - Reduced image sizes on each page to improve performance.
 
-## Key Learn
+## Key Learns
 * On following projects I will look to be more efficient in my use of CSS. In this project I styled each element as I needed them which caused a lot of duplication and redundant code. By defining the key classes and body formats I need across the entire project up front I will be able to optimise my code.
 * In future projects I will aim to move away form the heavy use of pixels and instead primarily utilise rem (and in some specific circumstances em). This will provide more control over responsive design.
 * In this project I developed media queries as and when i required them. As a result, I built them directly into the body of the CSS code alongside the elements they impacted. My Mentor advised that it would be best practice to consolidate these at the end of the CSS page. This would reduce line requirements by placing all media queries within a singular max-width media query appropriate to them. However due to the way I built and structured this project it would make the code difficult to read and locate so I have opted to leave this project as is for the sake of clarity but apply a more structured approach to my next project.

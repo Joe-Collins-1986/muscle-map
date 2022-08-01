@@ -938,6 +938,17 @@ table, th, td {
     }
 }
 
+.contact-link {
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+.contact-link a {
+    color: #004AAD;
+
+}
+
+
 /* ########## CONTACT ########## */
 /* ########## PAGE  ########## */
 
