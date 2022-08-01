@@ -140,7 +140,7 @@ The above provides an inital mind map into what features might be appropriate fo
    - [Chest](assets/readme-assets/3.testing/chest-sum.png)
    - [Back](assets/readme-assets/3.testing/back-sum.png)
    - [Shoulders](assets/readme-assets/3.testing/shoulders-sum.png)
-   - [Legs](assets/readme-assets/3.testing/legs-abs.png)
+   - [Legs](assets/readme-assets/3.testing/legs-sum.png)
    - [Abs](assets/readme-assets/3.testing/abs-sum.png)
    - [Plan](assets/readme-assets/3.testing/plan-sum.png)
    - [Contact](assets/readme-assets/3.testing/contact-sum.png)
