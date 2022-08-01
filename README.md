@@ -103,7 +103,7 @@ The above provides an inital mind map into what features might be appropriate fo
 ## Languages Used
    - HTML
    - CSS
-   - JavaScript (taken directly from a YouTube tutorial as I have not yet covered JavaScript - you tube channel referenced in credits section)
+   - JavaScript (taken directly from a YouTube tutorial as I have not yet covered JavaScript - YouTube channel referenced in credits section)
 
 ## Frameworks, Libraries & Programs Used
 1. Google Fonts:
@@ -121,16 +121,16 @@ The above provides an inital mind map into what features might be appropriate fo
 
 # Testing
  ## HTML Validator Results: 
-   - [Home](#)
-   - [Chest](#)
-   - [Back](#)
-   - [Shoulders](#)
+   - [Home](https://validator.w3.org/nu/?doc=https%3A%2F%2Fjoe-collins-1986.github.io%2Fmuscle-map%2Findex.html)
+   - [Chest](https://validator.w3.org/nu/?doc=https%3A%2F%2Fjoe-collins-1986.github.io%2Fmuscle-map%2Fchest.html)
+   - [Back](https://validator.w3.org/nu/?doc=https%3A%2F%2Fjoe-collins-1986.github.io%2Fmuscle-map%2Fback.html)
+   - [Shoulders](https://validator.w3.org/nu/?doc=https%3A%2F%2Fjoe-collins-1986.github.io%2Fmuscle-map%2Fshoulders.html)
    - [Legs](#)
    - [Abs](#)
    - [Plan](#)
 
  ## CSS Validator Results
-   -[CSS validator results](#)
+   -[CSS validator results](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fjoe-collins-1986.github.io%2Fmuscle-map%2F&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en)
 
  ## Lighthouse Accessibility Results:
    -[Lighthouse accessibility results](#)
