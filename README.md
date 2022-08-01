@@ -9,13 +9,14 @@ This website has been designed to provide users with a high-level overview of wh
 ![Responsive Review](assets/readme-assets/1.responsive/home.png)
 
 ## Responsive review of all website pages:
-- [Home](assets/readme-assets/1.responsive/home.png)
-- [Chest](assets/readme-assets/1.responsive/chest.png)
-- [Back](assets/readme-assets/1.responsive/back.png)
-- [Shoulders](assets/readme-assets/1.responsive/shoulders.png)
-- [Legs](assets/readme-assets/1.responsive/legs.png)
-- [Abs](assets/readme-assets/1.responsive/abs.png)
-- [Plan](assets/readme-assets/1.responsive/plan.png)
+- [Home](https://ui.dev/amiresponsive?url=https://joe-collins-1986.github.io/muscle-map/index.html)
+- [Chest](#)
+- [Back](#)
+- [Shoulders](#)
+- [Legs](#)
+- [Abs](#)
+- [Plan](#)
+- [Contact](#)
 
 # User Experience (UX)
 ## Website Objectives
@@ -209,7 +210,7 @@ The above provides an inital mind map into what features might be appropriate fo
 * On following projects I will look to be more efficient in my use of CSS. In this project I styled each element as I needed them which caused a lot of duplication and redundant code. By defining the key classes and body formats I need across the entire project up front I will be able to optimise my code.
 * In future projects I will aim to move away form the heavy use of pixels and instead primarily utilise rem (and in some specific circumstances em). This will provide more control over responsive design.
 * In this project I developed media queries as and when i required them. As a result, I built them directly into the body of the CSS code alongside the elements they impacted. My Mentor advised that it would be best practice to consolidate these at the end of the CSS page. This would reduce line requirements by placing all media queries within a singular max-width media query appropriate to them. However due to the way I built and structured this project it would make the code difficult to read and locate so I have opted to leave this project as is for the sake of clarity but apply a more structured approach to my next project.
-* On the Plan page I made the cards responsive by converting from flex direction rows to coloumns and updating the margins so it showed correctly on a smaller screen. This was done as originally I hade 3 cards when I built the funcionality, however had I know at the point of build that I would only use 2 cards I would have used flex-grow and flex wrap instead for a more concise and efficieciant code. This was not an appropriate option for more that 2 cards as it would have shown them with varied widths when pushed onto the lext line.
+* On the Plan page, I made the cards responsive by converting from flex direction rows to columns and updating the margins so it showed correctly on a smaller screen. This was done as originally I had 3 cards when I built the functionality, however had I known at the point of build that I would only use 2 cards I would have used flex-grow and flex wrap instead for a more concise and efficient code. This was not an appropriate option for more that 2 cards as it would have shown them with varied widths when pushed onto the next line.
 
 # Deployment
 ## GitHub Pages
