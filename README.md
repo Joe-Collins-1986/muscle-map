@@ -1,6 +1,6 @@
 # Muscle Map Website
-[View the live project here.](https://joe-collins-1986.github.io/muscle-map/)
-[View GitHub repository here.](https://github.com/Joe-Collins-1986/muscle-map)
+- [View the live project here.](https://joe-collins-1986.github.io/muscle-map/)
+- [View GitHub repository here.](https://github.com/Joe-Collins-1986/muscle-map)
 
 (**Note:** this is a fictitious client generated for the purpose of developing this project to test my HTML and CSS essentials.)
 
