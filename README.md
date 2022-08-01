@@ -127,8 +127,8 @@ The above provides an inital mind map into what features might be appropriate fo
    - [Shoulders](https://validator.w3.org/nu/?doc=https%3A%2F%2Fjoe-collins-1986.github.io%2Fmuscle-map%2Fshoulders.html)
    - [Legs](https://validator.w3.org/nu/?doc=https%3A%2F%2Fjoe-collins-1986.github.io%2Fmuscle-map%2Flegs.html)
    - [Abs](https://validator.w3.org/nu/?doc=https%3A%2F%2Fjoe-collins-1986.github.io%2Fmuscle-map%2Fabs.html)
-   - [Plan](#)
-   - [Contact]()
+   - [Plan](https://validator.w3.org/nu/?doc=https%3A%2F%2Fjoe-collins-1986.github.io%2Fmuscle-map%2Fplan.html)
+   - [Contact](https://validator.w3.org/nu/?doc=https%3A%2F%2Fjoe-collins-1986.github.io%2Fmuscle-map%2Fcontact.html)
 
  ## CSS Validator Results
    -[CSS validator results](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fjoe-collins-1986.github.io%2Fmuscle-map%2F&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en)
