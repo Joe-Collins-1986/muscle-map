@@ -139,7 +139,7 @@ The above provides an inital mind map into what features might be appropriate fo
    - Add borders for readability.
    - Make responsive to screen size.
 
-## Contact Page
+### Contact Page
 * Form:
    - Validate inputs.
    - Push data on submission (data not used).
