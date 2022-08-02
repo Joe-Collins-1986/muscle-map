@@ -10,7 +10,7 @@ body {
     font-family: 'Times New Roman', Times, serif;
 }
 
-/* header and navbar */
+/* navbar and logo */
 
 .navbar {
     display: flex;
@@ -23,6 +23,28 @@ body {
     width: 80px;
     margin: .5rem;
 }
+
+.logo-name {
+    font-family: 'Roboto Slab', serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: absolute;
+    left: 110px;
+    top: 30px;
+    line-height: 1rem;
+    font-size: 110%;
+}
+
+.logo-name-blue {
+    margin: 0;
+    color: #004AAD;
+} 
+
+.logo-name-orange {
+    margin: 0;
+    color: #FA7C07;
+} 
 
 .navbar-links ul {
     padding: 0;
@@ -64,6 +86,7 @@ body {
     width: 40px;
     height: 26px;
 }
+
 .bar {
     height: 4px;
     width: 100%;
@@ -71,9 +94,9 @@ body {
     border-radius: 20px;
 }
 
-/* responsive header max-width 1100px */
+/* responsive header max-width 1250px */
 
-@media (max-width: 1100px) {
+@media (max-width: 1250px) {
     .hamburger-menu {
         display: flex;
     }
