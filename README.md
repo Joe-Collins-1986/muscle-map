@@ -96,6 +96,54 @@ This website has been designed to provide users with a high-level overview of wh
 ![Feature Mind Map](assets/readme-assets/2.UX/Features.png)
 The above provides an inital mind map into what features might be appropriate for the website given the clients specifications.
 
+### All Pages
+* Web-tab:
+   - Add icon to tab.
+* Logo:
+   - Link up logo to direct to index page.
+* Navbar:
+   - Link to other pages.
+   - Add hover colour change to anchor links.
+   - Create Hamburger menu (use JavaScript code from instuctional video, see credits for author).
+* Call To Action (CTA):
+   - Hover coour change.
+   - Set 2 colours dependant on backgound colour.
+   - Link to plan page.
+* Footer:
+   - Fix location on page to promote social media and drive traffic to gym and personal training. (Not linked up to specific accounts due to this being a fictional client).
+   - Responsive to all decice sizes.
+### Index Page
+* Hero image & content:
+   - Set absolute position to not be pushed down by hamberger menu.
+   - Zoom animation.
+### Excercise/Muscle Pages
+* Title and header image:
+   - Resonsive, rearange to be appropriate to screen size.
+* External links:
+   - Link to appropriate section of external website using the websites apropriate ID as determined using Web Developer.
+* Link to YouTube:
+   - Open YouTube as external link. No requirement to embed and mute as the video will be the sole reason to utile link.
+   - Open all extenal links on seperate tab and add aria lables to detail their purpose.
+### Plan Page
+* Title and header image:
+   - Animate arrow icons in the title to flash upon opening page to help direct users below the header image.
+   - Image zoom animation.
+* Contant cards:
+   - Add hover colour change to enhance readablility and make page more dynamic.
+* Tables:
+   - Add borders for readibility.
+   - make responsive to screen size.
+## Contact Page
+* Form:
+   - Validate inputs.
+   - Push data on submission (data not used).
+   - Assign data values.
+   - Make radio buttons responsive to small screen.
+   - Add completion page.
+* Map:
+   - Embed Google Map.
+   - Set random location to act as gym location.
+
 # Further Development
 * Add automation of exercise plan based of information entered by visitor.
 * Add E-commerce for sale of Muscle Map merchandise.

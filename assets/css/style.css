@@ -221,7 +221,7 @@ body {
     text-shadow: -1px 0 #004AAD, 0 1px #004AAD, 1px 0 #004AAD, 0 -1px #004AAD;
 }
 
-/* responsive home-text max-width 500px */
+/* responsive home-text and cta max-width 500px */
 
 @media only screen and (max-width: 500px) {
 
