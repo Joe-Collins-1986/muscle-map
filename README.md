@@ -6,7 +6,7 @@
 This website has been designed to provide users with a high-level overview of which exercises can be used to train specific muscle groups. They will then be able to use these exercises to create a workout plan targeted to their number of available training days.
 
 # Responsive Review
-![Responsive Review](assets/readme-assets/1.responsive/home.png)
+![Responsive Review](assets/readme-assets/1.responsive/home-responsive.png)
 
 ## Responsive review of all website pages:
 - [Home](https://ui.dev/amiresponsive?url=https://joe-collins-1986.github.io/muscle-map/index.html)
