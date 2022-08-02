@@ -257,6 +257,7 @@ The above provides an inital mind map into what features might be appropriate fo
 * Tested across Google Chrome and Safari browsers.
 * Viewed on a variety of devices using Web Developer Tools as well as several live desktop, iPad and mobile devices. 
 * Each page tested by developer and friends to ensure functionality worked as expected.
+* Issued to Slack community to review and feedback on.
 
 ## Bugs
   * Navigation bar had too much content to display neatly.
