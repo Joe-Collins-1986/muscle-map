@@ -111,20 +111,24 @@ The above provides an inital mind map into what features might be appropriate fo
    - Set 2 colours dependant on background colour.
    - Link to plan page.
 * Footer:
-   - Fix location on page to promote social media and drive traffic to gym and personal training. (Not linked up to specific accounts due to this being a fictional client).
+   - Fix location on page to promote social media and drive traffic to gym and personal training.
+   - Anchor links functional to external sites. (Not linked up to specific accounts due to this being a fictional client).
    - Responsive to all device sizes.
+
 ### Index Page
 * Hero image & content:
    - Set absolute position to not be pushed down by hamburger menu.
    - Zoom animation.
+
 ### Exercise/Muscle Pages
 * Title and header image:
    - Responsive, rearrange to be appropriate to screen size.
 * External links:
    - Link to appropriate section of external website using the websites appropriate ID as determined using Web Developer.
 * Link to YouTube:
-   - Open YouTube as external link. No requirement to embed and mute as the video will be the sole reason to utile link.
-   - Open all external links on separate tab and add aria labels to detail their purpose.
+   - Open YouTube as external link. No requirement to embed and mute as the video will be the sole reason to watch instructional video.
+   - Open all external links on separate tab and add aria-labels to detail their purpose.
+
 ### Plan Page
 * Title and header image:
    - Animate arrow icons in the title to flash upon opening page to help direct users below the header image.
@@ -133,7 +137,8 @@ The above provides an inital mind map into what features might be appropriate fo
    - Add hover colour change to enhance readability and make page more dynamic.
 * Tables:
    - Add borders for readability.
-   - make responsive to screen size.
+   - Make responsive to screen size.
+
 ## Contact Page
 * Form:
    - Validate inputs.
@@ -141,6 +146,7 @@ The above provides an inital mind map into what features might be appropriate fo
    - Assign data values.
    - Make radio buttons responsive to small screen.
    - Add completion page.
+   
 * Map:
    - Embed Google Map.
    - Set random location to act as gym location.
