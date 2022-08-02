@@ -1,6 +1,5 @@
 # Muscle Map Website
-- [View the live project here.](https://joe-collins-1986.github.io/muscle-map/)
-- [View GitHub repository here.](https://github.com/Joe-Collins-1986/muscle-map)
+[View the live project here.](https://joe-collins-1986.github.io/muscle-map/)
 
 (**Note:** this is a fictitious client generated for the purpose of developing this project to test my HTML and CSS essentials.)
 
@@ -66,7 +65,9 @@ This website has been designed to provide users with a high-level overview of wh
 
    - Colours use to offset text:
       - #F5F5F5 (Off-White)
-      - #494949f2 (Grey with Slight Opacity) 
+      - #494949 (Grey with Slight Opacity) 
+
+![Colour Palette](assets/readme-assets/2.UX/colour-picker.png)
 
   #### **Typography**
   - Header Titles -'Roboto Slab', serif
@@ -104,34 +105,34 @@ The above provides an inital mind map into what features might be appropriate fo
 * Navbar:
    - Link to other pages.
    - Add hover colour change to anchor links.
-   - Create Hamburger menu (use JavaScript code from instuctional video, see credits for author).
+   - Create Hamburger menu (use JavaScript code from instructional video, see credits for author).
 * Call To Action (CTA):
-   - Hover coour change.
-   - Set 2 colours dependant on backgound colour.
+   - Hover colour change.
+   - Set 2 colours dependant on background colour.
    - Link to plan page.
 * Footer:
    - Fix location on page to promote social media and drive traffic to gym and personal training. (Not linked up to specific accounts due to this being a fictional client).
-   - Responsive to all decice sizes.
+   - Responsive to all device sizes.
 ### Index Page
 * Hero image & content:
-   - Set absolute position to not be pushed down by hamberger menu.
+   - Set absolute position to not be pushed down by hamburger menu.
    - Zoom animation.
-### Excercise/Muscle Pages
+### Exercise/Muscle Pages
 * Title and header image:
-   - Resonsive, rearange to be appropriate to screen size.
+   - Responsive, rearrange to be appropriate to screen size.
 * External links:
-   - Link to appropriate section of external website using the websites apropriate ID as determined using Web Developer.
+   - Link to appropriate section of external website using the websites appropriate ID as determined using Web Developer.
 * Link to YouTube:
    - Open YouTube as external link. No requirement to embed and mute as the video will be the sole reason to utile link.
-   - Open all extenal links on seperate tab and add aria lables to detail their purpose.
+   - Open all external links on separate tab and add aria labels to detail their purpose.
 ### Plan Page
 * Title and header image:
    - Animate arrow icons in the title to flash upon opening page to help direct users below the header image.
    - Image zoom animation.
-* Contant cards:
-   - Add hover colour change to enhance readablility and make page more dynamic.
+* Content cards:
+   - Add hover colour change to enhance readability and make page more dynamic.
 * Tables:
-   - Add borders for readibility.
+   - Add borders for readability.
    - make responsive to screen size.
 ## Contact Page
 * Form:
@@ -272,8 +273,41 @@ The above provides an inital mind map into what features might be appropriate fo
 * On the Plan page, I made the cards responsive by converting from flex direction rows to columns and updating the margins so it showed correctly on a smaller screen. This was done as originally I had 3 cards when I built the functionality, however had I known at the point of build that I would only use 2 cards I would have used flex-grow and flex wrap instead for a more concise and efficient code. This was not an appropriate option for more that 2 cards as it would have shown them with varied widths when pushed onto the next line.
 
 # Deployment
+## Set up Local GitHub Repository
+1. Go to my GitHub.
+2. Select the + icon in the top right corner and select new repository.
+3. Provide repository name and description.
+4. Select Add Readme File.
+5. Select Create Repository.
+
+## Repository Framework
+1. Select the repository on GitHub and open with Gitpod (green button).
+2. Create required html pages.
+3. Create assets folder.
+4. Within assets folder create css folder, images folder, js folder & readme-assets folder.
+5. Add required files to folders including style.css, images, script.js, etc.
+
+## Update Repository
+1. When adding a new feature create a separate branch to work in safely typing into the terminal "git branch 'name of required feature/update'".
+2. Checkout the branch with "git checkout 'name of required feature/update'".
+3. Make updates and test using "python -m http.server".
+4. Once testing is complete add to Git staging area using "git add ."
+5. Commit the changes and add a useful explanation of what action was done to track the history in GitHub using "git commit -m 'explanation of update'".
+6. Once the feature is complete, fully tested, and ready to be added to the main branch first go to the main branch using "git checkout main".
+7. Merge the feature branch into the main using "git merge 'name of required feature/update'".
+8. Confirm merge was successful and then if it is not going to be re-used delete the feature branch using "git branch -d 'name of required feature/update'". (if deleting a branch with commits not merged to main delete with -D instead of -d)
+9. Use "git push" to push the commits to GitHub. These will then appear in the live website if it has been set up in GitHub Pages.
+
 ## GitHub Pages
-Deployed to GitHub Pages within the settings on my GitHub Repository.
+Deploy in GitHub Pages:
+1. Log in to my GitHub and go to my Muscle-Map repository.
+2. Access settings.
+3. Under 'Code and Automation' go to pages.
+4. Leave the source as Deploy from Branch.
+5. Set Branch to Main.
+6. Save.
+7. Give GitHub a few minutes and the live URL is provided at the top of the GutHub Pages section of settings.
+8. Any Git Pushes from the terminal whilst working on the Muscle-Map repository using Gitpod will now update in this live site.
 
 # Credits
 ## Content
